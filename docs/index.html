@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.19">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Călin Aurel Drăgan">
+
+<title>quarto-inputddb15873d7abe4e4</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="index_files/libs/clipboard/clipboard.min.js"></script>
+<script src="index_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="index_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="index_files/libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="index_files/libs/quarto-html/popper.min.js"></script>
+<script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="index_files/libs/quarto-html/anchor.min.js"></script>
+<link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-46eeb4c476de49ef7df495821a6125d9.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-dark-2e0ab3ffcb189ca14a0af92b40aeab37.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-46eeb4c476de49ef7df495821a6125d9.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="index_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="index_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="index_files/libs/bootstrap/bootstrap-2bb79c7e8c42b04fdc4325ee081213f0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="index_files/libs/bootstrap/bootstrap-dark-2bb79c7e8c42b04fdc4325ee081213f0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="index_files/libs/bootstrap/bootstrap-2bb79c7e8c42b04fdc4325ee081213f0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script defer="" src="https://cdn.jsdelivr.net/npm/katex@0.16.23/dist/contrib/mhchem.min.js" integrity="sha384-F2ptQFZqNJuqfGGl28mIXyQ5kXH48spn7rcoS0Y9psqIKAcZPLd1NzwFlm/bl1mH" crossorigin="anonymous"></script>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="quarto-light">
+
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title"><p>
+<img src="style/mgmss_symbol_color.png" class="img-fluid" width="40">
+</p>
+<p>Metabolismus - Verbrennung</p></h1>
+            <p class="subtitle lead">Nutzung der chemischen Energie<br><small>Lerninhalte</small></p>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Autor:in</div>
+      <div class="quarto-title-meta-contents">
+               <p>Călin Aurel Drăgan </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Veröffentlichungsdatum</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">21. September 2025</p>
+      </div>
+    </div>
+    
+      <div>
+      <div class="quarto-title-meta-heading">Geändert</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date-modified">10. März 2026</p>
+      </div>
+    </div>
+      
+    </div>
+    
+  <div>
+    <div class="abstract">
+      <div class="block-title">Zusammenfassung</div>
+      Das Leben braucht offensichtlich Energie: das bloße Dasein verlangt nach Energie, selbst wenn man nichts tut. Aber woher bekommen wir die Energie? Was müssen wir tun, damit diese Energie zugänglich wird? In diesem Dokument lernst Du die Grundlagen des Metabolismus kennen. Es ist der Motor, der uns am Leben hält und alles andere möglich macht, was das Leben ausmacht.
+    </div>
+  </div>
+  
+  </header><div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
+    <h2 id="toc-title">Inhaltsverzeichnis</h2>
+   
+  <ul>
+  <li><a href="#verbrennung" id="toc-verbrennung" class="nav-link active" data-scroll-target="#verbrennung"><span class="header-section-number">1</span> Verbrennung</a>
+  <ul>
+  <li><a href="#bedeutung-der-verbrennung" id="toc-bedeutung-der-verbrennung" class="nav-link" data-scroll-target="#bedeutung-der-verbrennung"><span class="header-section-number">1.1</span> Bedeutung der Verbrennung</a></li>
+  <li><a href="#einfache-beispiele" id="toc-einfache-beispiele" class="nav-link" data-scroll-target="#einfache-beispiele"><span class="header-section-number">1.2</span> Einfache Beispiele</a></li>
+  </ul></li>
+  <li><a href="#technische-verbrennung" id="toc-technische-verbrennung" class="nav-link" data-scroll-target="#technische-verbrennung"><span class="header-section-number">2</span> Technische Verbrennung</a>
+  <ul>
+  <li><a href="#heizwert" id="toc-heizwert" class="nav-link" data-scroll-target="#heizwert"><span class="header-section-number">2.1</span> Heizwert</a></li>
+  <li><a href="#brennwert---wasserrückgewinnung" id="toc-brennwert---wasserrückgewinnung" class="nav-link" data-scroll-target="#brennwert---wasserrückgewinnung"><span class="header-section-number">2.2</span> Brennwert - Wasserrückgewinnung</a></li>
+  </ul></li>
+  <li><a href="#stoffwechsel" id="toc-stoffwechsel" class="nav-link" data-scroll-target="#stoffwechsel"><span class="header-section-number">3</span> Stoffwechsel</a>
+  <ul>
+  <li><a href="#nährwertbestimmung-durch-technische-verbrennung" id="toc-nährwertbestimmung-durch-technische-verbrennung" class="nav-link" data-scroll-target="#nährwertbestimmung-durch-technische-verbrennung"><span class="header-section-number">3.1</span> Nährwertbestimmung durch technische Verbrennung</a></li>
+  <li><a href="#problem-i---urin" id="toc-problem-i---urin" class="nav-link" data-scroll-target="#problem-i---urin"><span class="header-section-number">3.2</span> Problem I - Urin</a></li>
+  </ul></li>
+  </ul>
+</nav>
+</div>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<div class="hidden">
+<!-- Groundwork -->
+<p><span class="math display">
+\gdef\sub#1{_{\mathrm{#1}}}
+\gdef\unit#1{\mathrm{#1}}
+</span> <!-- Physical units --> <span class="math display">
+\gdef\celsius{\unit{°C}}
+\gdef\gram{\unit{g}}
+\gdef\joule{\unit{J}}
+\gdef\kelvin{\unit{K}}
+\gdef\kilogram{\unit{kg}}
+\gdef\liter{\unit{L}}
+\gdef\milliliter{\unit{mL}}
+\gdef\meter{\unit{m}}
+\gdef\mole{\unit{mol}}
+\gdef\newton{\unit{N}}
+\gdef\pascal{\unit{Pa}}
+</span> <!-- Prefixed units --> <span class="math display">
+\gdef\kilojoule{\unit{k}\joule}
+</span> <!-- Exponentiated units --> <span class="math display">
+\gdef\squaremeter{\meter^2}
+\gdef\cubicmeter{\meter^3}
+</span> <!-- Combined physical units --> <span class="math display">
+\gdef\newtonperkilogram{\frac{\newton}{\kilogram}}
+\gdef\joulepermole{\frac{\joule}{\mole}}
+\gdef\jouleperkilogram{\frac{\joule}{\kilogram}}
+\gdef\jouleperkelvin{\frac{\joule}{\kelvin}}
+\gdef\jouleperkilogramperkelvin{\frac{\joule}{\kilogram\,\kelvin}}
+\gdef\joulepermoleperkelvin{\frac{\joule}{\mole\,\kelvin}}
+\gdef\kilojouleperkilogram{\frac{\kilojoule}{\kilogram}}
+\gdef\kilojoulepermole{\frac{\kilojoule}{\mole}}
+\gdef\kilojoulepergram{\frac{\kilojoule}{\gram}}
+\gdef\kilojouleperkelvin{\frac{\kilojoule}{\kelvin}}
+\gdef\kilojouleperkilogramperkelvin{\frac{\kilojoule}{\kilogram\,\kelvin}}
+\gdef\kilojoulepermoleperkelvin{\frac{\kilojoule}{\mole\,\kelvin}}
+</span></p>
+</div>
+<div class="hidden">
+
+</div>
+<!-- {{< include _includes/_r_rating_init.qmd >}} -->
+<!-- {{< include _level_1.qmd >}} -->
+<!-- {{< include _level_2.qmd >}} -->
+<!-- {{< include _level_3.qmd >}} -->
+<!-- {{< include _includes/_r_rating.qmd >}} -->
+<section id="verbrennung" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="verbrennung"><span class="header-section-number">1</span> Verbrennung</h2>
+<p>Die Verbrennung ist ein chemischer Prozess, bei dem eine Ausgangssubstanz durch Sauerstoff zersetzt wird. Dabei wird die innere Energie der Ausgangssubstanz in Wärme und Licht umgewandelt und die Ausgangssubstanz selbst in gasförmige Bestandteile umgewandelt. Die Hauptreaktion ist die Oxidation einiger oder aller Atome der ursprünglichen Verbindung. Di gasförmigen Produkte sind bei einer vollständigen Verbrennung die entsprechenden Oxide der Elemente.</p>
+<section id="bedeutung-der-verbrennung" class="level3" data-number="1.1">
+<h3 data-number="1.1" class="anchored" data-anchor-id="bedeutung-der-verbrennung"><span class="header-section-number">1.1</span> Bedeutung der Verbrennung</h3>
+<p>Der Mensch nutzt die Verbrennung seit Jahrtausenden für Nahrungszubereitung, Schutz und Licht. Die Verbrennung ist jedoch auch die Grundlage der technischen Entwicklung der Menschheit. Daneben kann sie auch deren Untergang sein durch die exzessive Verbrennung von organischen Stoffen, die seit Jahrmillionen als fossile Energieträger unter der Erde liegen.</p>
+<p>Alleine wegen den Abgasen und dem Rauch, werden viele Verbrennungsprozesse immer in Kontakt mit der Atmosphäre gefahren. Das heisst sie finden bei Atmosphärendruck statt und von daher bei konstantem Druck abläuft. Dadurch ist die Enthalpie die entscheidende thermodynamische Grösse, die die Verbrennung nützlich charakterisiert.</p>
+<p>Das Ergebnis der Verbrennung ist eine bisweilen heftige exotherme Reaktion bei der eine Menge Hitze entsteht.</p>
+</section>
+<section id="einfache-beispiele" class="level3" data-number="1.2">
+<h3 data-number="1.2" class="anchored" data-anchor-id="einfache-beispiele"><span class="header-section-number">1.2</span> Einfache Beispiele</h3>
+<p>Wir konzentrieren uns auf diejenigen chemischen Elementen, die am häufigsten in lebender Materie vorkommen. Im menschlichen Körper machen die CHNOPS Elementen 99% der Gesamtmasse aus. Verbrennen wir <strong>Kohlenstoff</strong> zuerst</p>
+<p><span class="math display">
+\ce{C(s) + O2(g) -&gt; CO2(g)}.
+</span></p>
+<p>Kohlenstoff verbrennt bei genügend Sauerstoff immer zu <span class="math inline">\ce{CO2}</span>. Ist relativ weniger Sauerstoff vorhanden, dann entsteht auch das gefährliche <span class="math inline">\ce{CO}</span>.</p>
+<p><strong>Wasserstoff</strong> verbrennt in der <em>Knallgasreaktion</em></p>
+<p><span class="math display">
+\ce{2 H2(s) + O2(g) -&gt; 2 H2O(l)},
+</span></p>
+<p>wobei Du beachten solltest, dass das Produkt Wasser am Ende flüssig vorliegt. Wir werden später erläutern, warum das hier wichtig ist.</p>
+<p><strong>Stickstoff</strong> reagiert erst bei höheren Temperaturen mit Sauerstoff und ist neben natürlichen Quellen als Beiprodukt von Verbrennungen vorhanden. Die Produkte sind Stickstoffoxid <span class="math inline">\ce{NO}</span> und Stickstoffdioxid <span class="math inline">\ce{NO2}</span>. Die Entstehung der Stickoxide ist recht kompliziert. Da in der Biologie der Stickstoff in den meisten Fällen als Aminogruppe an einem Kohlenstoffatom vorliegt</p>
+<p><span class="math display">
+\ce{{Molekül}-CH2-NH2},
+</span></p>
+<p>ist die Verbrennung von Ammoniak</p>
+<p><span class="math display">
+\ce{2 NH3(g) + 3/2 O2(g) -&gt; N2(g) + 3 H2O(l)}
+</span></p>
+<p>eher von Interesse.</p>
+<p><strong>Phosphor</strong> verbrennt als weisser Phosphor zu <span class="math inline">\ce{P4O10}</span>. Das ist aber nicht weiter interessant für die Biologie, da Phosphor immer oxidiert in biologische Makromoleküle vorliegt.</p>
+<p>Der <strong>Schwefel</strong> liegt in biologischen Makromolekülen ähnlich vor wie der Stickstoff</p>
+<p><span class="math display">
+\ce{{Molekül}-CH3-SH}
+</span></p>
+<p>und hat absolute Ähnlichkeit zu einer Alkoholgruppe. Solche Verbindungen heissen Thiole. Elementarer Schwefel verbrennt im Claus Prozess mit einem Anfangsschritt</p>
+<p><span class="math display">
+\ce{2 H2S + 3 O2 -&gt; 2 SO2 + 2 H2O},
+</span></p>
+<p>der Ähnlichkeit zur Kohlenstoffverbrennung hat. Allerdings folgt der zweite Schritt</p>
+<p><span class="math display">
+\ce{2 H2S + SO2 -&gt; 3 S + 2 H2O},
+</span></p>
+<p>der in der Summe, die Schwefelverbrennung wie die Ammoniakverbrennung aussehen lässt.</p>
+</section>
+</section>
+<section id="technische-verbrennung" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="technische-verbrennung"><span class="header-section-number">2</span> Technische Verbrennung</h2>
+<section id="heizwert" class="level3" data-number="2.1">
+<h3 data-number="2.1" class="anchored" data-anchor-id="heizwert"><span class="header-section-number">2.1</span> Heizwert</h3>
+<p>Verbrennen wir das Gas Methan an der Luft. Methan ist ein Treibstoff, das durch Biogasanlagen produziert wird. Die Verbrennung läuft folgendermassen ab:</p>
+<p><span id="eq-methane"><span class="math display">
+\ce{CH4(g) + 2O2(g) -&gt; CO2(g) + 2 H2O(g)},\;\Delta H_{\text{c},n}^{\circ} = -802\,\kilojoulepermole.
+\tag{1}</span></span></p>
+<p>Beachte, dass wir das Wasser im gasförmigen Zustand haben; so läuft das ja auch ab unter freiem Himmel. Die Verbrennungsenthalpie <span class="math inline">\Delta H_{\text{c},n}^{\circ}</span> nennen wir den <strong>Heizwert</strong>. Auf Masse bezogen sind es <span class="math inline">\Delta H_{\text{c},m}^{\circ} = -50\,\kilojoulepergram</span>. Diese Enthalpie stellt die bei konstantem Druck verwertbare Wärmeenergie der Verbrennung laut</p>
+<p><span class="math display">
+\Delta H_{\text{c},n}^{\circ} = \Delta U_{\text{c},n} - p \Delta V
+</span></p>
+<p>dar. Das heisst, dass die verwertbare Energie <strong>nicht</strong> der inneren Energie des Brennstoffs entspricht, da die Gase in diesem Fall Expansionsarbeit <span class="math inline">W = -p \Delta V</span> leisten.</p>
+<p>Beim Camping oder beim Kochen mit Gas verwenden wir Propan oder Butan. Propan verbrennt im Campingkocher so</p>
+<p><span class="math display">
+\ce{C3H8(g) + 5 O2(g) → 3 CO2(g) + 4 H2O(g)},\;\Delta H\sub{c,n}^{\circ} = −2044\,\kilojoulepermole.
+</span></p>
+<p>Die Standardenthalpie pro Masse ist <span class="math inline">\Delta H_{\text{c},m}^{\circ} = -46\,\kilojoulepergram</span>.</p>
+<p>Isooctan ist eines der Komponenten bei der Oktanskala. Die Oktanskala zeigt an wieviel Kompression ein Treibstoff verkraften kann, bevor es anfängt im Motor zu klopfen. Das Verbrennen von Isooctane funktioniert nach folgendem Schema</p>
+<p><span class="math display">
+\ce{C8H18(l) + 25/2 O2(g) -&gt; 8 CO2(g) + 9 H2O(l)},\;\Delta H_{\text{c},n}^{\circ} = −5055\,\kilojoulepermole,
+</span></p>
+<p>wobei die entstandene Energie pro Masse <span class="math inline">\Delta H_{\text{c},m}^{\circ} = -44\,\kilojoulepergram</span>.</p>
+</section>
+<section id="brennwert---wasserrückgewinnung" class="level3" data-number="2.2">
+<h3 data-number="2.2" class="anchored" data-anchor-id="brennwert---wasserrückgewinnung"><span class="header-section-number">2.2</span> Brennwert - Wasserrückgewinnung</h3>
+<p>Wenn Verbrennungsenthalpien bestimmt werden, dann handelt es sich um Standardenthalpien. Wie Du weisst, werden diese bei <span class="math inline">p = 101325\,\pascal</span> und <span class="math inline">T = 298\,\kelvin</span> gemessen. Das heisst aber, dass alle Produkte nach der Verbrennung in ihren Standardzustand zurückgeführt werden. Dabei geschieht folgendes</p>
+<p><span id="eq-water-condensation"><span class="math display">
+\ce{H2O(g) -&gt; H2O(l)},\;-\Delta H_{\text{vap},n}^{\circ} = -45\,\kilojoulepermole.
+\tag{2}</span></span></p>
+<p>Das Vorzeichen hat sich umgedreht und das bedeutet, dass bei der Kondensation, der Umkehrung des Verdampfens, Energie frei wird. Diese müssten wir zu <a href="#eq-methane" class="quarto-xref">Gleichung&nbsp;1</a> dazu rechnen. Wie geht das? Ganz einfach, man zählt <a href="#eq-methane" class="quarto-xref">Gleichung&nbsp;1</a> und <a href="#eq-water-condensation" class="quarto-xref">Gleichung&nbsp;2</a> zusammen:</p>
+<p><span class="math display">
+\ce{CH4(g) + 2 O2(g) + \xcancel{H2O(g)} -&gt; CO2(g) + \xcancel{H2O(g)} + H2O(l)}.
+</span></p>
+<p>Dabei mussten wir <a href="#eq-water-condensation" class="quarto-xref">Gleichung&nbsp;2</a> mit der Zahl Zwei multiplizieren, weil in <a href="#eq-methane" class="quarto-xref">Gleichung&nbsp;1</a> zwei Moleküle Wasser entstehen. Nach Wegstreichen der Substanzen, die auf beiden Seiten gleich sind, ergibt sich</p>
+<p><span class="math display">
+\ce{CH4(g) + 2 O2(g) -&gt; CO2(g) + 2 H2O(l)}.
+</span></p>
+<p>Die Verbrennungsenthalpie oder der Brennwert dieser Reaktion ist</p>
+<p><span class="math display">
+\begin{split}
+\Delta H_{\text{c},m}^{\circ}
+    &amp;= \Delta H_{\text{c},n}^{\circ} + 2 \cdot \left( - \Delta H_{\text{vap},n}^{\circ} \right) \\
+    &amp;= -802\,\kilojoulepermole - 2 \cdot 45\,\kilojoulepermole \\
+    &amp;= -892\,\kilojoulepermole,
+\end{split}
+</span></p>
+<p>und dadurch höher als bei der Verbrennung bei dem das Wasser nicht zurück gewonnen wird. Je mehr Wasser bei der Verbrennung entsteht, desto größer ist die verlorene Energie durch das Entweichen des Dampfes.</p>
+</section>
+</section>
+<section id="stoffwechsel" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="stoffwechsel"><span class="header-section-number">3</span> Stoffwechsel</h2>
+<p>Der Stoffwechsel führt formal gesehen ebenfalls eine Verbrennung aus. Allerdings unterschiedet die sich von der technischen und physikalischen Verbrennung in folgenden Punkten:</p>
+<ul>
+<li>Die Stoffwechselverbrennung teilt die Energiegewinnung in kleine Schritte ein, sonst würde die Zelle durch die eigenen Energiegewinnung verbrennen.</li>
+<li>Das Wasser wird immer im als Flüssigkeit zurück gewonnen. Dadurch steht grundsätzlich mehr Energie zur Verfügung als beim Lagerfeuer unter freiem Himmel.</li>
+<li>Es findet keine vollständige Verbrennung bezüglich des Stickstoffs statt, weil das Leben den Stickstoff als organische Verbindung ausscheidet. Dadurch geht wiederum ein Teil der Verbrennungsenergie verloren.</li>
+<li>In der technischen Verbrennung wird alles Organische verbrannt; Tatsache ist, dass viele Faserstoffe gar nicht verdaut werden können.</li>
+</ul>
+<section id="nährwertbestimmung-durch-technische-verbrennung" class="level3" data-number="3.1">
+<h3 data-number="3.1" class="anchored" data-anchor-id="nährwertbestimmung-durch-technische-verbrennung"><span class="header-section-number">3.1</span> Nährwertbestimmung durch technische Verbrennung</h3>
+<p>Wenn Nahrung wirklich verbrannt werden würde, dann würde es ungefähr so aussehen:</p>
+<p><span class="math display">
+\ce{Nahrung + a O2(g) -&gt; x CO2(g) + y H2O(l) + z N2(g)},\;\Delta H\sub{c,tech}^{\circ}
+</span></p>
+<p>Beachte, dass wir das Wasser zurück gewinnen in Form von flüssigem Wasser. Wir dampfen ja nicht, wenn wir unsere Nahrung verwerten.</p>
+</section>
+<section id="problem-i---urin" class="level3" data-number="3.2">
+<h3 data-number="3.2" class="anchored" data-anchor-id="problem-i---urin"><span class="header-section-number">3.2</span> Problem I - Urin</h3>
+<p>Aber etwas stimmt noch nicht ganz: wir geben keinen gasförmigen Stickstoff ab. Stattdessen scheiden wir den Stickstoff in Form von Harnstoff <span class="math inline">\ce{(H2N)2C=O}</span> im Urin ab. Die metabolische Verbrennung liefert eher</p>
+<p><span id="eq-food-tech"><span class="math display">
+\begin{gather*}
+\ce{Nahrung + a O2(g) -&gt;} \\
+\ce{x CO2(g) + y H2O(l) + $z$ (H2N)2C=O(s)},\;\Delta H\sub{c,metab}^{\circ}
+\end{gather*}
+\tag{3}</span></span></p>
+<p>Der Harnstoff ist unter Standardbedingungen fest. In einer technischen Verbrennung würde der Harnstoff auch zu seinen gasförmigen Bestandteilen zerlegt werden</p>
+<p><span class="math display">
+\begin{gather*}
+\ce{(H2N)2C=O(s) + \dfrac{3}{2} O2(g) -&gt;} \\
+\ce{CO2(g) + 2H2O(l) + N2(g)},\;\Delta H\sub{c,Harnstoff}^{\circ} = -632\,\unit{kJ}\,\unit{mol}^{-1}
+\end{gather*}
+</span></p>
+<p>Um Harnstoff auf der Produktseite zu erhalten, muss man die obere Gleichung rückwärts laufen lassen</p>
+<p><span class="math display">
+\begin{gather*}
+\ce{CO2(g) + 2H2O(l) + N2(g) -&gt;} \\
+\ce{(H2N)2C=O(s) + \dfrac{3}{2} O2(g)},\;\Delta H\sub{Harnstoff}^{\circ} = +632\,\unit{kJ}\,\unit{mol}^{-1}
+\end{gather*}
+</span></p>
+<p>Das zeigt welchen Energiegehalt wir durch das urinieren verlieren. Wenn diese letzte Gleichung zu <a href="#eq-food-tech" class="quarto-xref">Gleichung&nbsp;3</a> addieren, dann erhalten wir</p>
+<p><span class="math display">
+\begin{gather*}
+\ce{Nahrung + a O2(g) + CO2(g) + 2H2O(l) + N2(g) -&gt; \\
+\dfrac{3}{2} O2(g) + x CO2(g) + y H2O(l) + z (H2N)2C=O(s)},\;\Delta H\sub{c,metab}^{\circ}
+\end{gather*}
+</span></p>
+<p>Und das ist der Energiegehalt, den wir durch unser Urin im Vergleich zur technischen Verbrennung verlieren. Für die metabolische Verbrennung gilt dann</p>
+<p><span class="math display">
+\begin{split}
+\Delta H\sub{c,metab}^{\circ}
+    &amp;= \Delta H\sub{c,tech}^{\circ} + \Delta H\sub{Harnstoff}^{\circ}
+\end{split}
+</span></p>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Kopiert");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Kopiert");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

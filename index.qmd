@@ -1,0 +1,212 @@
+{{< include _includes/_front_matter.qmd >}}
+{{< include _includes/_init_fontawesome.qmd >}} 
+{{< include _includes/_katex_macros.qmd >}} 
+{{< include _includes/_r_themes.qmd >}}
+<!-- {{< include _includes/_r_rating_init.qmd >}} -->
+
+<!-- {{< include _level_1.qmd >}} -->
+<!-- {{< include _level_2.qmd >}} -->
+<!-- {{< include _level_3.qmd >}} -->
+
+<!-- {{< include _includes/_r_rating.qmd >}} -->
+
+## Verbrennung 
+
+Die Verbrennung ist ein chemischer Prozess, bei dem eine Ausgangssubstanz durch Sauerstoff zersetzt wird. Dabei wird die innere Energie der Ausgangssubstanz in Wärme und Licht umgewandelt und die Ausgangssubstanz selbst in gasförmige Bestandteile umgewandelt. Die Hauptreaktion ist die Oxidation einiger oder aller Atome der ursprünglichen Verbindung. Di gasförmigen Produkte sind bei einer vollständigen Verbrennung die entsprechenden Oxide der Elemente.
+
+### Bedeutung der Verbrennung
+
+Der Mensch nutzt die Verbrennung seit Jahrtausenden für Nahrungszubereitung, Schutz und Licht. Die Verbrennung ist jedoch auch die Grundlage der technischen Entwicklung der Menschheit. Daneben kann sie auch deren Untergang sein durch die exzessive Verbrennung von organischen Stoffen, die seit Jahrmillionen als fossile Energieträger unter der Erde liegen.
+
+Alleine wegen den Abgasen und dem Rauch, werden viele Verbrennungsprozesse immer in Kontakt mit der Atmosphäre gefahren. Das heisst sie finden bei Atmosphärendruck statt und von daher bei konstantem Druck abläuft. Dadurch ist die Enthalpie die entscheidende thermodynamische Grösse, die die Verbrennung nützlich charakterisiert.
+
+Das Ergebnis der Verbrennung ist eine bisweilen heftige exotherme Reaktion bei der eine Menge Hitze entsteht.
+
+### Einfache Beispiele
+
+Wir konzentrieren uns auf diejenigen chemischen Elementen, die am häufigsten in lebender Materie vorkommen. Im menschlichen Körper machen die CHNOPS Elementen 99% der Gesamtmasse aus. Verbrennen wir **Kohlenstoff** zuerst
+
+$$
+\ce{C(s) + O2(g) -> CO2(g)}. 
+$$
+
+Kohlenstoff verbrennt bei genügend Sauerstoff immer zu $\ce{CO2}$. Ist relativ weniger Sauerstoff vorhanden, dann entsteht auch das gefährliche $\ce{CO}$.
+
+**Wasserstoff** verbrennt in der *Knallgasreaktion* 
+
+$$
+\ce{2 H2(s) + O2(g) -> 2 H2O(l)}, 
+$$
+
+wobei Du beachten solltest, dass das Produkt Wasser am Ende flüssig vorliegt. Wir werden später erläutern, warum das hier wichtig ist.
+
+**Stickstoff** reagiert erst bei höheren Temperaturen mit Sauerstoff und ist neben natürlichen Quellen als Beiprodukt von Verbrennungen vorhanden. Die Produkte sind Stickstoffoxid $\ce{NO}$ und Stickstoffdioxid $\ce{NO2}$. Die Entstehung der Stickoxide ist recht kompliziert. Da in der Biologie der Stickstoff in den meisten Fällen als Aminogruppe an einem Kohlenstoffatom vorliegt
+
+$$
+\ce{{Molekül}-CH2-NH2},
+$$
+
+
+ist die Verbrennung von Ammoniak
+
+$$
+\ce{2 NH3(g) + 3/2 O2(g) -> N2(g) + 3 H2O(l)} 
+$$
+
+eher von Interesse. 
+
+**Phosphor** verbrennt als weisser Phosphor zu $\ce{P4O10}$. Das ist aber nicht weiter interessant für die Biologie, da Phosphor immer oxidiert in biologische Makromoleküle vorliegt.
+
+Der **Schwefel** liegt in biologischen Makromolekülen ähnlich vor wie der Stickstoff
+
+$$
+\ce{{Molekül}-CH3-SH}
+$$
+
+und hat absolute Ähnlichkeit zu einer Alkoholgruppe. Solche Verbindungen heissen Thiole. Elementarer Schwefel verbrennt im Claus Prozess mit einem Anfangsschritt
+
+$$
+\ce{2 H2S + 3 O2 -> 2 SO2 + 2 H2O},
+$$
+
+der Ähnlichkeit zur Kohlenstoffverbrennung hat. Allerdings folgt der zweite Schritt
+
+$$
+\ce{2 H2S + SO2 -> 3 S + 2 H2O},
+$$
+
+der in der Summe, die Schwefelverbrennung wie die Ammoniakverbrennung aussehen lässt.
+
+## Technische Verbrennung
+
+### Heizwert
+
+Verbrennen wir das Gas Methan an der Luft. Methan ist ein Treibstoff, das durch Biogasanlagen produziert wird. Die Verbrennung läuft folgendermassen ab:
+
+$$
+\ce{CH4(g) + 2O2(g) -> CO2(g) + 2 H2O(g)},\;\Delta H_{\text{c},n}^{\circ} = -802\,\kilojoulepermole. 
+$$ {#eq-methane}
+
+Beachte, dass wir das Wasser im gasförmigen Zustand haben; so läuft das ja auch ab unter freiem Himmel. Die Verbrennungsenthalpie $\Delta H_{\text{c},n}^{\circ}$ nennen wir den **Heizwert**. Auf Masse bezogen sind es $\Delta H_{\text{c},m}^{\circ} = -50\,\kilojoulepergram$. Diese Enthalpie stellt die bei konstantem Druck verwertbare Wärmeenergie der Verbrennung laut
+
+$$
+\Delta H_{\text{c},n}^{\circ} = \Delta U_{\text{c},n} - p \Delta V
+$$
+
+dar. Das heisst, dass die verwertbare Energie **nicht** der inneren Energie des Brennstoffs entspricht, da die Gase in diesem Fall Expansionsarbeit $W = -p \Delta V$ leisten.
+
+Beim Camping oder beim Kochen mit Gas verwenden wir Propan oder Butan. Propan verbrennt im Campingkocher so
+
+$$
+\ce{C3H8(g) + 5 O2(g) → 3 CO2(g) + 4 H2O(g)},\;\Delta H\sub{c,n}^{\circ} = −2044\,\kilojoulepermole. 
+$$
+
+Die Standardenthalpie pro Masse ist $\Delta H_{\text{c},m}^{\circ} = -46\,\kilojoulepergram$. 
+
+Isooctan ist eines der Komponenten bei der Oktanskala. Die Oktanskala zeigt an wieviel Kompression ein Treibstoff verkraften kann, bevor es anfängt im Motor zu klopfen. Das Verbrennen von Isooctane funktioniert nach folgendem Schema
+
+$$
+\ce{C8H18(l) + 25/2 O2(g) -> 8 CO2(g) + 9 H2O(l)},\;\Delta H_{\text{c},n}^{\circ} = −5055\,\kilojoulepermole,
+$$
+
+wobei die entstandene Energie pro Masse $\Delta H_{\text{c},m}^{\circ} = -44\,\kilojoulepergram$.
+
+### Brennwert - Wasserrückgewinnung
+
+Wenn Verbrennungsenthalpien bestimmt werden, dann handelt es sich um Standardenthalpien. Wie Du weisst, werden diese bei $p = 101325\,\pascal$ und $T = 298\,\kelvin$ gemessen. Das heisst aber, dass alle Produkte nach der Verbrennung in ihren Standardzustand zurückgeführt werden. Dabei geschieht folgendes 
+
+$$
+\ce{H2O(g) -> H2O(l)},\;-\Delta H_{\text{vap},n}^{\circ} = -45\,\kilojoulepermole.
+$$ {#eq-water-condensation}
+
+Das Vorzeichen hat sich umgedreht und das bedeutet, dass bei der Kondensation, der Umkehrung des Verdampfens, Energie frei wird. Diese müssten wir zu @eq-methane dazu rechnen. Wie geht das? Ganz einfach, man zählt @eq-methane und @eq-water-condensation zusammen:
+
+$$
+\ce{CH4(g) + 2 O2(g) + \xcancel{H2O(g)} -> CO2(g) + \xcancel{H2O(g)} + H2O(l)}. 
+$$ 
+
+Dabei mussten wir @eq-water-condensation mit der Zahl Zwei multiplizieren, weil in @eq-methane zwei Moleküle Wasser entstehen. Nach Wegstreichen der Substanzen, die auf beiden Seiten gleich sind, ergibt sich
+
+$$
+\ce{CH4(g) + 2 O2(g) -> CO2(g) + 2 H2O(l)}. 
+$$ 
+
+Die Verbrennungsenthalpie oder der Brennwert dieser Reaktion ist
+
+$$
+\begin{split}
+\Delta H_{\text{c},m}^{\circ} 
+    &= \Delta H_{\text{c},n}^{\circ} + 2 \cdot \left( - \Delta H_{\text{vap},n}^{\circ} \right) \\
+    &= -802\,\kilojoulepermole - 2 \cdot 45\,\kilojoulepermole \\
+    &= -892\,\kilojoulepermole, 
+\end{split}
+$$
+
+und dadurch höher als bei der Verbrennung bei dem das Wasser nicht zurück gewonnen wird. Je mehr Wasser bei der Verbrennung entsteht, desto größer ist die verlorene Energie durch das Entweichen des Dampfes. 
+
+## Stoffwechsel
+
+Der Stoffwechsel führt formal gesehen ebenfalls eine Verbrennung aus. Allerdings unterschiedet die sich von der technischen und physikalischen Verbrennung in folgenden Punkten:
+
+- Die Stoffwechselverbrennung teilt die Energiegewinnung in kleine Schritte ein, sonst würde die Zelle durch die eigenen Energiegewinnung verbrennen.
+- Das Wasser wird immer im als Flüssigkeit zurück gewonnen. Dadurch steht grundsätzlich mehr Energie zur Verfügung als beim Lagerfeuer unter freiem Himmel.
+- Es findet keine vollständige Verbrennung bezüglich des Stickstoffs statt, weil das Leben den Stickstoff als organische Verbindung ausscheidet. Dadurch geht wiederum ein Teil der Verbrennungsenergie verloren.
+- In der technischen Verbrennung wird alles Organische verbrannt; Tatsache ist, dass viele Faserstoffe gar nicht verdaut werden können. 
+
+### Nährwertbestimmung durch technische Verbrennung
+
+Wenn Nahrung wirklich verbrannt werden würde, dann würde es ungefähr so aussehen:
+
+$$
+\ce{Nahrung + a O2(g) -> x CO2(g) + y H2O(l) + z N2(g)},\;\Delta H\sub{c,tech}^{\circ}
+$$
+
+Beachte, dass wir das Wasser zurück gewinnen in Form von flüssigem Wasser. Wir dampfen ja nicht, wenn wir unsere Nahrung verwerten. 
+
+### Problem I - Urin
+
+Aber etwas stimmt noch nicht ganz: wir geben keinen gasförmigen Stickstoff ab. Stattdessen scheiden wir den Stickstoff in Form von Harnstoff $\ce{(H2N)2C=O}$ im Urin ab. Die metabolische Verbrennung liefert eher 
+
+$$
+\begin{gather*}
+\ce{Nahrung + a O2(g) ->} \\
+\ce{x CO2(g) + y H2O(l) + $z$ (H2N)2C=O(s)},\;\Delta H\sub{c,metab}^{\circ}
+\end{gather*}
+$$ {#eq-food-tech}
+
+Der Harnstoff ist unter Standardbedingungen fest. In einer technischen Verbrennung würde der Harnstoff auch zu seinen gasförmigen Bestandteilen zerlegt werden
+
+$$
+\begin{gather*}
+\ce{(H2N)2C=O(s) + \dfrac{3}{2} O2(g) ->} \\
+\ce{CO2(g) + 2H2O(l) + N2(g)},\;\Delta H\sub{c,Harnstoff}^{\circ} = -632\,\unit{kJ}\,\unit{mol}^{-1}
+\end{gather*}
+$$
+
+Um Harnstoff auf der Produktseite zu erhalten, muss man die obere Gleichung rückwärts laufen lassen
+
+$$
+\begin{gather*}
+\ce{CO2(g) + 2H2O(l) + N2(g) ->} \\
+\ce{(H2N)2C=O(s) + \dfrac{3}{2} O2(g)},\;\Delta H\sub{Harnstoff}^{\circ} = +632\,\unit{kJ}\,\unit{mol}^{-1}
+\end{gather*}
+$$
+
+Das zeigt welchen Energiegehalt wir durch das urinieren verlieren. Wenn diese letzte Gleichung zu @eq-food-tech addieren, dann erhalten wir 
+
+$$
+\begin{gather*}
+\ce{Nahrung + a O2(g) + CO2(g) + 2H2O(l) + N2(g) -> \\
+\dfrac{3}{2} O2(g) + x CO2(g) + y H2O(l) + z (H2N)2C=O(s)},\;\Delta H\sub{c,metab}^{\circ}
+\end{gather*}
+$$
+
+Und das ist der Energiegehalt, den wir durch unser Urin im Vergleich zur technischen Verbrennung verlieren. Für die metabolische  Verbrennung gilt dann
+
+$$
+\begin{split}
+\Delta H\sub{c,metab}^{\circ} 
+    &= \Delta H\sub{c,tech}^{\circ} + \Delta H\sub{Harnstoff}^{\circ}
+\end{split}
+$$
+
