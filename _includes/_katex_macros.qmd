@@ -32,6 +32,7 @@ $$
 $$
 <!-- Combined physical units -->
 $$
+\gdef\CubicMeterPerMole{\frac{\cubicmeter}{\mole}}
 \gdef\newtonperkilogram{\frac{\newton}{\kilogram}}
 \gdef\joulepermole{\frac{\joule}{\mole}}
 \gdef\jouleperkilogram{\frac{\joule}{\kilogram}}

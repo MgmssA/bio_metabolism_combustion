@@ -96,7 +96,7 @@ erfolgen. Dann haben wir eher etwas, was wie die Kohlenstoffverbrennung aussieht
 
 ### Verbrennen organischer Materie
 
-Wenn organische Materie verbrannt wird, dann schauen wir bevorzugt auf die Elemente $\ce{CHNOS}$. Diese decken immer noch mehr als 85% der Biomasse ab. Die allgemeine Reaktionsgleichung kann so geschrieben werden:
+Wenn organische Materie verbrannt wird, dann schauen wir bevorzugt auf die Elemente $\ce{CHNOS}$. Diese werden decken immer noch mehr als 85% der Biomasse ab. Die allgemeine Reaktionsgleichung kann so geschrieben werden:
 
 $$
 \ce{{Biomasse} + x O2(g) -> a CO2(g) + b H2O(l) + c N2(g) + d SO2(g)}.
@@ -182,61 +182,9 @@ Der Stoffwechsel führt formal gesehen ebenfalls eine Verbrennung aus. Allerding
 - Es findet keine vollständige Verbrennung bezüglich des Stickstoffs statt, weil das Leben den Stickstoff als organische Verbindung ausscheidet. Dadurch geht wiederum ein Teil der Verbrennungsenergie verloren.
 - In der technischen Verbrennung wird alles Organische verbrannt; Tatsache ist, dass viele Faserstoffe gar nicht verdaut werden können. 
 
-Dadurch nennen wir die Verbrennung im Stoffwechsel eine Verstoffwechselung, um sie von der technischen Verbrennung zu unterscheiden. 
+### Nährwertbestimmung durch thermische Verbrennung
 
-Wir betrachten jetzt die metabolische Verbrennung von drei der vier Klassen von biologischen Makromolekülen, die als Nahrungsquelle dienen. Das sind die Kohlenhydrate, die Fette und die Proteine. Die Verbrennung von DNA lassen wir aus, da sie in der Nahrung nur einen sehr kleinen Anteil ausmacht. Auch Proteine dienen eher als Baustoff und nur dann als Energiequelle, wenn die Kohlenhydrate und Fette bereits verbraucht sind.
-
-### Zucker
-
-Der klassische Fall ist die Verstoffwechselung von Glucose. Die Reaktion sieht so aus
-
-$$
-\begin{gather*}
-\ce{C6H12O6(s) + 6 O2(g) -> 6 CO2(g) + 6 H2O(l)}\\
-\Delta H\sub{c,metab,\mathnormal{n},Glucose}^{\circ} = -2805\,\small\kilojoulepermole.
-\end{gather*}
-$$ {#eq-glucose-combustion}
-
-Fructose, die ebenfalls ein Zucker ist und dieselbe Summenformel wie Glucose hat, wird fast mit derselben Enthalpie verstoffwechselt. Die Ribose, ein Fünffachzucker, der in der DNA vorkommt, verstoffwechselt in der folgenden Reaktion
-
-$$
-\begin{gather*}
-\ce{C5H10O5(s) + 5 O2(g) -> 5 CO2(g) + 5 H2O(l)} \\
-\Delta H\sub{c,metab,\mathnormal{n},Ribose}^{\circ} = -2348\,\small\kilojoulepermole.
-\end{gather*}
-$$
-
-Die Verstoffwechselung von Zucker entspricht der thermischen Verbrennung mit Brennwert, da die Produkte in ihren Standardzustand überführt werden. Dadurch liegt das Wasser als Flüssigkeit vor und nicht als Dampf. 
-
-### Lipide
-
-Wir verstoffwechseln jetzt zuerst ein einfache Fettsäure, nämlich die Palmitinsäure. Die Palmitinsäure kommt in vielen Fetten vor, zum Beispiel in Palmöl, und ist damit eine der häufigsten Fettsäuren in der Nahrung. Sie hat die Summenformel $\ce{C16H32O2}$ und verbrennt nach der Reaktion
-
-$$
-\begin{gather*}
-\ce{C16H32O2(s) + 48 O2(g) -> 16 CO2(g) + 16 H2O(l)} \\
-\Delta H\sub{c,therm,\mathnormal{n},Palmitinsäure}^{\circ} = -10016\,\small\kilojoulepermole.
-\end{gather*}
-$$ {#eq-palmitic-combustion}
-
-Eine weitere Fettsäure, die in der Nahrung vorkommt, ist die Ölsäure. Sie ist eine einfach ungesättigte Fettsäure, die in Olivenöl vorkommt. Sie hat die Summenformel $\ce{C18H34O2}$ und verbrennt nach der Reaktion
-
-$$
-\begin{gather*}
-\ce{C18H34O2(s) + 51 O2(g) -> 18 CO2(g) + 17 H2O(l)} \\
-\Delta H\sub{c,therm,\mathnormal{n},Ölsäure}^{\circ} = -11161\,\small\kilojoulepermole.
-\end{gather*}
-$$ {#eq-oleic-combustion}
-
-Auch im Fall der Lipide entspricht die Verstoffwechselung der thermischen Verbrennung mit Brennwert. 
-
-### Proteine
-
-Proteine sind komplexer als Zucker und Lipide, da sie neben Kohlenstoff, Wasserstoff und Sauerstoff auch Stickstoff und Schwefel enthalten. Dadurch ist der Vergleich zwischen der thermischen Verbrennung und dem Stoffwechsel etwas komplizierter.
-
-#### Stickstoff Ausscheidung im Urin
-
-Betrachten wir die Aminosäure Alanin. Deren thermische Verbrennung würde so aussehen
+Nehmen wir ein etwas komplexeres Molekül als einfache Alkane. betrachten wir die Aminosäure Alanin. Deren thermische Verbrennung würde so aussehen
 
 $$
 \begin{gather*}
@@ -245,7 +193,19 @@ $$
 \end{gather*}
 $$ {#eq-thermal-ala-combustion}
 
+Die Aminosäure Methionin besitzt sogar eine Thiolgruppe und damit auchSchwefel. Wenn wir Methionin thermisch verbrennen würden, dann müsste die Reaktion so aussehen
+
+$$
+\begin{gather*}
+\ce{2 C5H11NO2S(s) + 31/2 O2(g) ->} \\
+\ce{10 CO2(g) + 11 H2O(l) + N2(g) + 2 SO2(g)} \\
+\Delta H\sub{c,therm,\mathnormal{n},Methionin}^{\circ} = -3564\,\small\kilojoulepermole,
+\end{gather*}
+$$ {#eq-thermal-met-combustion}
+
 In beiden Fällen kann die Reaktion in einem Bombenkalorimeter gestartet werden und dadurch wird am Ende abgekühlt, sodass alle Produkte in ihren Standardzustand vorliegen.
+
+### Stickstoff Ausscheidung - Urin
 
 Eine Funktion des Urins ist die Ausscheidung von überschüssigem Stickstoff. Wir geben ja kein Stickstoffgas ab, sondern Harnstoff $\ce{CO(NH2)2}$. Der Harnstoff ist unter Standardbedingungen fest. In einer thermischen Verbrennung würde der Harnstoff auch zu seinen gasförmigen Bestandteilen zerlegt werden nach der Reaktion
 
@@ -256,9 +216,9 @@ $$
 \end{gather*}
 $$ {#eq-urea-combustion}
 
-Das zeigt, welchen Energiegehalt wir durch den Urin verlieren. Das bedeutet aber auch, dass die Verstoffwechselung von Methionin in unserem Körper um einen gewissen Betrag verringert wird. Dieser Betrag muss ja nach Hess genau einer gewissen Menge verbrannten Harnstoff entsprechen. Welcher Betrag ist es denn?
+Das zeigt, welchen Energiegehalt wir durch den Urin verlieren. Das bedeutet aber auch, dass die metabolische Verbrennung von Methionin in unserem Körper um einen gewissen Betrag verringert wird. Dieser Betrag muss ja nach Hess genau einer gewissen Menge verbrannten Harnstoff entsprechen. Welcher Betrag ist es denn?
 
-In @eq-urea-combustion steht Harnstoff noch auf der Eduktseite. Wir bräuchten es aber auf der Produktseite, damit das unserem Stoffwechsel einigermassen entspricht. Dazu lassen wir die Reaktion aus @eq-urea-combustion einfach rückwärts laufen.
+In @eq-urea-combustion steht Harnstoff noch auf der Eduktseite. Wir bräuchten es aber auf der Produktseite, damit das unserem metabolischen Verbrennen entspricht. Dazu lassen wir die Reaktion aus @eq-urea-combustion einfach rückwärts laufen.
 
 $$
 \begin{gather*}
@@ -296,23 +256,13 @@ $$
 \end{split}
 $$
 
-Wenn wir also Alanin in unserem Körper verstoffwechseln, dann gewinnen wir $-2932\,\kilojoulepermole$ an Energie, was deutlich weniger ist als die Energie, die wir durch die thermische Verbrennung von Methionin gewinnen würden. Das liegt daran, dass wir den Stickstoff nicht in Form von gasförmigem Stickstoff sondern in Form von Harnstoff ausscheiden.
+Wenn wir also Alanin in unserem Körper verbrennen, dann gewinnen wir $-2932\,\kilojoulepermole$ an Energie, was deutlich weniger ist als die Energie, die wir durch die thermische Verbrennung von Methionin gewinnen würden. Das liegt daran, dass wir den Stickstoff nicht in Form von gasförmigem Stickstoff sondern in Form von Harnstoff ausscheiden.
 
-#### Schwefel Ausscheidung im Urin
+### Schwefel Ausscheidung - Urin
 
-Die Aminosäure Methionin besitzt sogar eine Thiolgruppe und damit auch Schwefel. Wenn wir Methionin thermisch verbrennen würden, dann müsste die Reaktion so aussehen
+Ähnlich wie bei Alanin stellen wir fest, dass der Schwefel nicht wie bei der thermischen Verbrennung von Methionin als elementarer Schwefel ausgeschieden wird. Stattdessen wird der Schwefel ebenfalls im Urin als Sulfat ausgeschieden^[Es gibt andere Ausscheidungsmechanismen, die zu anderen Schwefelverbindungen führen. Wir konzentrieren uns allerdings auf den Sulfatweg, weil er in Tieren durchaus oft vorkommt. Zum Beispiel wurde festgestellt, dass der Großteil des Schwefels im Urin fast bis 90% als Sulfat ausgeschieden wird.] und damit gehen auch hier Energieverluste einher. Die Aminosäure Methionin, deren thermische Verbrennung in @eq-thermal-met-combustion gezeigt ist, produziert bei der metabolischen Verbrennung nicht elementaren Schwefel sondern über die Abspaltung von Schwefelwasserstoff letztendlich Sulfat. 
 
-$$
-\begin{gather*}
-\ce{2 C5H11NO2S(s) + 31/2 O2(g) ->} \\
-\ce{10 CO2(g) + 11 H2O(l) + N2(g) + 2 SO2(g)} \\
-\Delta H\sub{c,therm,\mathnormal{n},Methionin}^{\circ} = -3564\,\small\kilojoulepermole,
-\end{gather*}
-$$ {#eq-thermal-met-combustion}
-
-Ähnlich wie bei Alanin stellen wir fest, dass der Schwefel nicht wie bei der thermischen Verbrennung von Methionin als Schwefeldioxid ausgeschieden wird. Stattdessen wird der Schwefel im Urin als Sulfat ausgeschieden^[Es gibt andere Ausscheidungsmechanismen, die zu anderen Schwefelverbindungen führen. Wir konzentrieren uns allerdings auf den Sulfatweg, weil er in Tieren durchaus oft vorkommt. Zum Beispiel wurde festgestellt, dass der Großteil des Schwefels im Urin fast bis 90% als Sulfat ausgeschieden wird.] und damit gehen auch hier Energieverluste einher. 
-
-Wir werden zur Bestimmung der Energieverluste durch die Sulfatausscheidung im Urin lediglich die Bildung der Schwefelsäure aus Schwefeldioxid betrachten. Die dafür notwendige Reaktion ist die folgende
+Wir werden aber zur Bestimmung der Energieverluste durch die Sulfatausscheidung im Urin lediglich die Bildung der Schwefelsäure aus Schwefeldioxid betrachten. Die dafür notwendige Reaktion ist die folgende
 
 $$
 \ce{SO2(g) + 1/2 O2(g) + H2O(l) -> H2SO4(aq)}.
@@ -329,7 +279,7 @@ $$
 \end{split}
 $$
 
-Beachte, dass wir die Enthalpie aus der Differenz der Enthalpien der Produkte und Edukte berechnet haben. Das ist eine weitere Anwendung des Hess'schen Gesetzes. Nun können wir den Energiegehalt der metabolischen Verbrennung von Methionin bestimmen, indem wir die Enthalpie der Sulfatbildung und der Harnstoffbildung zu der Enthalpie der thermischen Verbrennung von Methionin addieren. Zuerst betrachten wir die Bildung von Harnstoff und Sulfat als eine Einzelreaktion
+Beachte, dass wir die Enthalpie der Bildung der Schwefelsäure aus der Differenz der Enthalpien der Produkte und Edukte berechnet haben. Das ist eine weitere Anwendung des Hess'schen Gesetzes. Nun können wir den Energiegehalt der metabolischen Verbrennung von Methionin bestimmen, indem wir die Enthalpie der Sulfatbildung und der Harnstoffbildung zu der Enthalpie der thermischen Verbrennung von Methionin addieren. Zuerst betrachten wir die Bildung von Harnstoff und Sulfat als eine Einzelreaktion
 
 $$
 \begin{gather*}
@@ -358,7 +308,7 @@ $$
 \end{split}
 $$ {#eq-urea-sulfate-metabolic-formation-enthalpy}
 
-Nun können wir die Reaktionsgleichung der Verstoffwechselung von Methionin durch Addition von @eq-thermal-met-combustion und @eq-urea-sulfate-metabolic-formation erhalten. Wir bekommen
+Jetzt können wir die Reaktionsgleichung der metabolischen Verbrennung von Methionin durch Addition von @eq-thermal-met-combustion und @eq-urea-sulfate-metabolic-formation erhalten. Wir bekommen
 
 $$
 \begin{gather*}
@@ -378,7 +328,7 @@ $$
 \end{gather*}
 $$ {#eq-metabolic-met-combustion}
 
-Die Enthalpie der Verstoffwechselung von Methionin ist die Summe der Enthalpien der thermischen Verbrennung von Methionin und dem Wert aus @eq-urea-sulfate-metabolic-formation-enthalpy. Es ergibt sich
+Die Enthalpie der metabolischen Verbrennung von Methionin ist die Summe der Enthalpien der thermischen Verbrennung von Methionin und dem Wert aus @eq-urea-sulfate-metabolic-formation-enthalpy. Es ergibt sich
 
 $$
 \begin{split}
@@ -389,7 +339,7 @@ $$
 \end{split}
 $$
 
-Somit verlieren wir durch die Ausscheidung von Stickstoff und Schwefel im Urin etwa 9% der Energie, die wir durch die thermische Verbrennung von Methionin gewinnen würden.
+Somit verlieren wir durch die Ausscheidung von Stickstoff und Schwefel im Urin etwa 9% der Energie, die wir durch die Verbrennung von Methionin gewinnen würden.
 
 
 
