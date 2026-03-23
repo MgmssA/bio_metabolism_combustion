@@ -32,19 +32,19 @@ $$
 $$
 <!-- Combined physical units -->
 $$
-\gdef\cubicmeter_per_mole{\frac{\cubicmeter}{\mole}}
-\gdef\newton_per_kilogram{\frac{\newton}{\kilogram}}
-\gdef\joule_per_mole{\frac{\joule}{\mole}}
-\gdef\joule_per_kilogram{\frac{\joule}{\kilogram}}
-\gdef\joule_per_kelvin{\frac{\joule}{\kelvin}}
-\gdef\joule_per_kilogram_per_kelvin{\frac{\joule}{\kilogram\,\kelvin}}
-\gdef\joule_per_mole_per_kelvin{\frac{\joule}{\mole\,\kelvin}}
-\gdef\kilojoule_per_kilogram{\frac{\kilojoule}{\kilogram}}
-\gdef\kilojoule_per_mole{\frac{\kilojoule}{\mole}}
-\gdef\kilojoule_per_gram{\frac{\kilojoule}{\gram}}
-\gdef\kilojoule_per_kelvin{\frac{\kilojoule}{\kelvin}}
-\gdef\kilojoule_per_kilogram_per_kelvin{\frac{\kilojoule}{\kilogram\,\kelvin}}
-\gdef\kilojoule_per_mole_per_kelvin{\frac{\kilojoule}{\mole\,\kelvin}}
+\gdef\cubicmeterpermole{\frac{\cubicmeter}{\mole}}
+\gdef\newtonperkilogram{\frac{\newton}{\kilogram}}
+\gdef\joulepermole{\frac{\joule}{\mole}}
+\gdef\jouleperkilogram{\frac{\joule}{\kilogram}}
+\gdef\jouleperkelvin{\frac{\joule}{\kelvin}}
+\gdef\jouleperkilogramperkelvin{\frac{\joule}{\kilogram\,\kelvin}}
+\gdef\joulepermoleperkelvin{\frac{\joule}{\mole\,\kelvin}}
+\gdef\kilojouleperkilogram{\frac{\kilojoule}{\kilogram}}
+\gdef\kilojoulepermole{\frac{\kilojoule}{\mole}}
+\gdef\kilojoulepergram{\frac{\kilojoule}{\gram}}
+\gdef\kilojouleperkelvin{\frac{\kilojoule}{\kelvin}}
+\gdef\kilojouleperkilogramperkelvin{\frac{\kilojoule}{\kilogram\,\kelvin}}
+\gdef\kilojoulepermoleperkelvin{\frac{\kilojoule}{\mole\,\kelvin}}
 $$
 
 :::

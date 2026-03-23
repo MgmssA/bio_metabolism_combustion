@@ -8,7 +8,7 @@
 
 <meta name="author" content="Călin Aurel Drăgan">
 
-<title>quarto-input7a9e407b94b35ae0</title>
+<title>quarto-input7594d1962b5ab448</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -200,19 +200,19 @@ window.Quarto = {
 \gdef\squaremeter{\meter^2}
 \gdef\cubicmeter{\meter^3}
 </span> <!-- Combined physical units --> <span class="math display">
-\gdef\cubicmeter_per_mole{\frac{\cubicmeter}{\mole}}
-\gdef\newton_per_kilogram{\frac{\newton}{\kilogram}}
-\gdef\joule_per_mole{\frac{\joule}{\mole}}
-\gdef\joule_per_kilogram{\frac{\joule}{\kilogram}}
-\gdef\joule_per_kelvin{\frac{\joule}{\kelvin}}
-\gdef\joule_per_kilogram_per_kelvin{\frac{\joule}{\kilogram\,\kelvin}}
-\gdef\joule_per_mole_per_kelvin{\frac{\joule}{\mole\,\kelvin}}
-\gdef\kilojoule_per_kilogram{\frac{\kilojoule}{\kilogram}}
-\gdef\kilojoule_per_mole{\frac{\kilojoule}{\mole}}
-\gdef\kilojoule_per_gram{\frac{\kilojoule}{\gram}}
-\gdef\kilojoule_per_kelvin{\frac{\kilojoule}{\kelvin}}
-\gdef\kilojoule_per_kilogram_per_kelvin{\frac{\kilojoule}{\kilogram\,\kelvin}}
-\gdef\kilojoule_per_mole_per_kelvin{\frac{\kilojoule}{\mole\,\kelvin}}
+\gdef\cubicmeterpermole{\frac{\cubicmeter}{\mole}}
+\gdef\newtonperkilogram{\frac{\newton}{\kilogram}}
+\gdef\joulepermole{\frac{\joule}{\mole}}
+\gdef\jouleperkilogram{\frac{\joule}{\kilogram}}
+\gdef\jouleperkelvin{\frac{\joule}{\kelvin}}
+\gdef\jouleperkilogramperkelvin{\frac{\joule}{\kilogram\,\kelvin}}
+\gdef\joulepermoleperkelvin{\frac{\joule}{\mole\,\kelvin}}
+\gdef\kilojouleperkilogram{\frac{\kilojoule}{\kilogram}}
+\gdef\kilojoulepermole{\frac{\kilojoule}{\mole}}
+\gdef\kilojoulepergram{\frac{\kilojoule}{\gram}}
+\gdef\kilojouleperkelvin{\frac{\kilojoule}{\kelvin}}
+\gdef\kilojouleperkilogramperkelvin{\frac{\kilojoule}{\kilogram\,\kelvin}}
+\gdef\kilojoulepermoleperkelvin{\frac{\kilojoule}{\mole\,\kelvin}}
 </span></p>
 </div>
 <div class="hidden">
@@ -303,30 +303,30 @@ window.Quarto = {
 <h3 data-number="2.1" class="anchored" data-anchor-id="heizwert"><span class="header-section-number">2.1</span> Heizwert</h3>
 <p>Verbrennen wir das Gas Methan an der Luft. Methan ist ein Treibstoff, das durch Biogasanlagen produziert wird. Die Verbrennung läuft folgendermassen ab:</p>
 <p><span id="eq-methane"><span class="math display">
-\ce{CH4(g) + 2O2(g) -&gt; CO2(g) + 2 H2O(g)},\;\Delta H_{\text{c},n}^{\circ} = -802\,\small\kilojoule_per_mole.
+\ce{CH4(g) + 2O2(g) -&gt; CO2(g) + 2 H2O(g)},\;\Delta H_{\text{c},n}^{\circ} = -802\,\small\kilojoulepermole.
 \tag{3}</span></span></p>
 <p>Beachte, dass wir das Wasser im gasförmigen Zustand haben; so läuft das ja auch ab unter freiem Himmel.</p>
-<p>Die Verbrennungsenthalpie <span class="math inline">\Delta H_{\text{c},n}^{\circ}</span> nennen wir den <strong>Heizwert</strong>. Die Enthalpie hat einen Index <strong>c</strong>; das ist der Anfangsbuchstabe des englischen Wortes für Verbrennung <em>combustion</em>. Der index <span class="math inline">n</span> bedeutet, dass wir die Enthalpie auf Stoffmenge beziehen. Auf Masse bezogen sind es <span class="math inline">\Delta H_{\text{c},m}^{\circ} = -50\,\kilojoule_per_gram</span>. Diese Enthalpie stellt die bei konstantem Druck verwertbare Wärmeenergie der Verbrennung laut</p>
+<p>Die Verbrennungsenthalpie <span class="math inline">\Delta H_{\text{c},n}^{\circ}</span> nennen wir den <strong>Heizwert</strong>. Die Enthalpie hat einen Index <strong>c</strong>; das ist der Anfangsbuchstabe des englischen Wortes für Verbrennung <em>combustion</em>. Der index <span class="math inline">n</span> bedeutet, dass wir die Enthalpie auf Stoffmenge beziehen. Auf Masse bezogen sind es <span class="math inline">\Delta H_{\text{c},m}^{\circ} = -50\,\kilojoulepermole</span>. Diese Enthalpie stellt die bei konstantem Druck verwertbare Wärmeenergie der Verbrennung laut</p>
 <p><span class="math display">
 \Delta H_{\text{c},n}^{\circ} = \Delta U_{\text{c},n} - p \Delta V_n
 </span></p>
-<p>dar. Beachte, dass wir in dieser Gleichung alle Größen auf Stoffmenge beziehen, selbst das Volumen <span class="math inline">V_n</span>. Das sind molare Größen. Das molare Volumen ist bei <span class="math inline">T = 298\,\kelvin</span> etwa <span class="math inline">V_n = 0.0245\cubicmeter_per_mole</span>, wenn wir ein perfektes Gase annehmen. Dadurch ist das molare Volumen auch nicht abhängig von der Substanz und gilt für alle Gase. Die Gleichung sagt aus, dass die verwertbare Energie <strong>nicht</strong> der inneren Energie des Brennstoffs entspricht, da die Gase in diesem Fall Expansionsarbeit <span class="math inline">W_n = -p \Delta V_n</span> leisten.</p>
+<p>dar. Beachte, dass wir in dieser Gleichung alle Größen auf Stoffmenge beziehen, selbst das Volumen <span class="math inline">V_n</span>. Das sind molare Größen. Das molare Volumen ist bei <span class="math inline">T = 298\,\kelvin</span> etwa <span class="math inline">V_n = 0.0245\cubicmeterpermole</span>, wenn wir ein perfektes Gase annehmen. Dadurch ist das molare Volumen auch nicht abhängig von der Substanz und gilt für alle Gase. Die Gleichung sagt aus, dass die verwertbare Energie <strong>nicht</strong> der inneren Energie des Brennstoffs entspricht, da die Gase in diesem Fall Expansionsarbeit <span class="math inline">W_n = -p \Delta V_n</span> leisten.</p>
 <p>Beim Camping oder beim Kochen mit Gas verwenden wir Propan oder Butan. Propan verbrennt im Campingkocher so</p>
 <p><span class="math display">
-\ce{C3H8(g) + 5 O2(g) → 3 CO2(g) + 4 H2O(g)},\;\Delta H\sub{c,n}^{\circ} = −2044\,\small\kilojoule_per_mole.
+\ce{C3H8(g) + 5 O2(g) → 3 CO2(g) + 4 H2O(g)},\;\Delta H\sub{c,n}^{\circ} = −2044\,\small\kilojoulepermole.
 </span></p>
-<p>Die Standardenthalpie pro Masse ist <span class="math inline">\Delta H_{\text{c},m}^{\circ} = -46\,\kilojoule_per_gram</span>.</p>
+<p>Die Standardenthalpie pro Masse ist <span class="math inline">\Delta H_{\text{c},m}^{\circ} = -46\,\kilojoulepermole</span>.</p>
 <p>Isooctan ist eines der Komponenten bei der Oktanskala von Treibstoffen. Die Oktanskala zeigt an wieviel Kompression ein Treibstoff verkraften kann, bevor es anfängt im Motor zu klopfen. Das Verbrennen von Isooctane funktioniert nach folgendem Schema</p>
 <p><span class="math display">
-\ce{C8H18(l) + 25/2 O2(g) -&gt; 8 CO2(g) + 9 H2O(l)},\;\Delta H_{\text{c},n}^{\circ} = −5055\,\small\kilojoule_per_mole,
+\ce{C8H18(l) + 25/2 O2(g) -&gt; 8 CO2(g) + 9 H2O(l)},\;\Delta H_{\text{c},n}^{\circ} = −5055\,\small\kilojoulepermole,
 </span></p>
-<p>wobei die entstandene Energie pro Masse <span class="math inline">\Delta H_{\text{c},m}^{\circ} = -44\,\kilojoule_per_gram</span>.</p>
+<p>wobei die entstandene Energie pro Masse <span class="math inline">\Delta H_{\text{c},m}^{\circ} = -44\,\kilojoulepermole</span>.</p>
 </section>
 <section id="brennwert---wasserrückgewinnung" class="level3" data-number="2.2">
 <h3 data-number="2.2" class="anchored" data-anchor-id="brennwert---wasserrückgewinnung"><span class="header-section-number">2.2</span> Brennwert - Wasserrückgewinnung</h3>
 <p>Wenn Verbrennungsenthalpien bestimmt werden, dann handelt es sich um Standardenthalpien. Wie Du weisst, werden diese bei <span class="math inline">p = 101325\,\pascal</span> und <span class="math inline">T = 298\,\kelvin</span> gemessen. Das heisst aber, dass alle Produkte nach der Verbrennung in ihren Standardzustand zurückgeführt werden. Dabei geschieht folgendes</p>
 <p><span id="eq-water-condensation"><span class="math display">
-\ce{H2O(g) -&gt; H2O(l)},\;-\Delta H_{\text{vap},n}^{\circ} = -45\,\small\kilojoule_per_mole.
+\ce{H2O(g) -&gt; H2O(l)},\;-\Delta H_{\text{vap},n}^{\circ} = -45\,\small\kilojoulepermole.
 \tag{4}</span></span></p>
 <p>Das Vorzeichen hat sich umgedreht und das bedeutet, dass bei der Kondensation, der Umkehrung des Verdampfens, Energie frei wird. Diese müssten wir zu <a href="#eq-methane" class="quarto-xref">Gleichung&nbsp;3</a> dazu rechnen. Wie geht das? Ganz einfach, man zählt <a href="#eq-methane" class="quarto-xref">Gleichung&nbsp;3</a> und <a href="#eq-water-condensation" class="quarto-xref">Gleichung&nbsp;4</a> zusammen:</p>
 <p><span class="math display">
@@ -341,8 +341,8 @@ window.Quarto = {
 \begin{split}
 \Delta H_{\text{c},m}^{\circ}
     &amp;= \Delta H_{\text{c},n}^{\circ} + 2 \cdot \left( - \Delta H_{\text{vap},n}^{\circ} \right) \\
-    &amp;= -802\,\small\kilojoule_per_mole - 2 \cdot 45\,\small\kilojoule_per_mole \\
-    &amp;= -892\,\small\kilojoule_per_mole,
+    &amp;= -802\,\small\kilojoulepermole - 2 \cdot 45\,\small\kilojoulepermole \\
+    &amp;= -892\,\small\kilojoulepermole,
 \end{split}
 </span></p>
 <p>und dadurch höher als bei der Verbrennung bei dem das Wasser nicht zurück gewonnen wird. Je mehr Wasser bei der Verbrennung entsteht, desto größer ist die verlorene Energie durch das Entweichen des Dampfes.</p>
@@ -365,14 +365,14 @@ window.Quarto = {
 <p><span id="eq-glucose-combustion"><span class="math display">
 \begin{gather*}
 \ce{C6H12O6(s) + 6 O2(g) -&gt; 6 CO2(g) + 6 H2O(l)}\\
-\Delta H\sub{metab,\mathnormal{n},Glucose}^{\circ} = -2805\,\small\kilojoule_per_mole.
+\Delta H\sub{metab,\mathnormal{n},Glucose}^{\circ} = -2805\,\small\kilojoulepermole.
 \end{gather*}
 \tag{5}</span></span></p>
 <p>Fructose, die ebenfalls ein Zucker ist und dieselbe Summenformel wie Glucose hat, wird fast mit derselben Enthalpie verstoffwechselt. Die Ribose, ein Fünffachzucker, der in der DNA vorkommt, verstoffwechselt in der folgenden Reaktion</p>
 <p><span class="math display">
 \begin{gather*}
 \ce{C5H10O5(s) + 5 O2(g) -&gt; 5 CO2(g) + 5 H2O(l)} \\
-\Delta H\sub{metab,\mathnormal{n},Ribose}^{\circ} = -2348\,\small\kilojoule_per_mole.
+\Delta H\sub{metab,\mathnormal{n},Ribose}^{\circ} = -2348\,\small\kilojoulepermole.
 \end{gather*}
 </span></p>
 <p>Die Verstoffwechselung von Zucker entspricht der thermischen Verbrennung mit Brennwert, da die Produkte in ihren Standardzustand überführt werden. Dadurch liegt das Wasser als Flüssigkeit vor und nicht als Dampf.</p>
@@ -383,14 +383,14 @@ window.Quarto = {
 <p><span id="eq-palmitic-combustion"><span class="math display">
 \begin{gather*}
 \ce{C16H32O2(s) + 48 O2(g) -&gt; 16 CO2(g) + 16 H2O(l)} \\
-\Delta H\sub{metab,\mathnormal{n},Palmitinsäure}^{\circ} = -10016\,\small\kilojoule_per_mole.
+\Delta H\sub{c,\mathnormal{n},Palmitinsäure}^{\circ} = -10016\,\small\kilojoulepermole.
 \end{gather*}
 \tag{6}</span></span></p>
 <p>Eine weitere Fettsäure, die in der Nahrung vorkommt, ist die Ölsäure. Sie ist eine einfach ungesättigte Fettsäure, die in Olivenöl vorkommt. Sie hat die Summenformel <span class="math inline">\ce{C18H34O2}</span> und verbrennt nach der Reaktion</p>
 <p><span id="eq-oleic-combustion"><span class="math display">
 \begin{gather*}
 \ce{C18H34O2(s) + 51 O2(g) -&gt; 18 CO2(g) + 17 H2O(l)} \\
-\Delta H\sub{metab,\mathnormal{n},Ölsäure}^{\circ} = -11161\,\small\kilojoule_per_mole.
+\Delta H\sub{c,\mathnormal{n},Ölsäure}^{\circ} = -11161\,\small\kilojoulepermole.
 \end{gather*}
 \tag{7}</span></span></p>
 <p>Auch im Fall der Lipide entspricht die Verstoffwechselung der thermischen Verbrennung mit Brennwert.</p>
@@ -404,7 +404,7 @@ window.Quarto = {
 <p><span id="eq-thermal-ala-combustion"><span class="math display">
 \begin{gather*}
 \ce{2 C3H7NO2(s) + 15/2 O2(g) -&gt; 6 CO2(g) + 7 H2O(l) + N2(g)} \\
-\Delta H\sub{c,\mathnormal{n},Alanin}^{\circ} = -1621\,\small\kilojoule_per_mole.
+\Delta H\sub{c,\mathnormal{n},Alanin}^{\circ} = -1621\,\small\kilojoulepermole.
 \end{gather*}
 \tag{8}</span></span></p>
 <p>In beiden Fällen kann die Reaktion in einem Bombenkalorimeter gestartet werden und dadurch wird am Ende abgekühlt, sodass alle Produkte in ihren Standardzustand vorliegen.</p>
@@ -412,7 +412,7 @@ window.Quarto = {
 <p><span id="eq-urea-combustion"><span class="math display">
 \begin{gather*}
 \ce{CO(NH2)2(s) + 3/2 O2(g) -&gt; CO2(g) + 2 H2O(l) + N2(g)} \\
-\Delta H\sub{c\mathnormal{n},Harnstoff}^{\circ} = -632\,\small\kilojoule_per_mole.
+\Delta H\sub{c,\mathnormal{n},Harnstoff}^{\circ} = -632\,\small\kilojoulepermole.
 \end{gather*}
 \tag{9}</span></span></p>
 <p>Das zeigt, welchen Energiegehalt wir durch den Urin verlieren. Das bedeutet aber auch, dass die Verstoffwechselung von Methionin in unserem Körper um einen gewissen Betrag verringert wird. Dieser Betrag muss ja nach Hess genau einer gewissen Menge verbrannten Harnstoff entsprechen. Welcher Betrag ist es denn?</p>
@@ -420,7 +420,7 @@ window.Quarto = {
 <p><span id="eq-urea-combustion-reverse"><span class="math display">
 \begin{gather*}
 \ce{CO2(g) + 2 H2O(l) + N2(g) -&gt; CO(NH2)2(s) + 3/2 O2(g)} \\
-\Delta H\sub{Urin,\mathnormal{n}}^{\circ} = -\Delta H\sub{c,therm,\mathnormal{n},Harnstoff}^{\circ} = +632\,\small\kilojoule_per_mole
+\Delta H\sub{Urin,\mathnormal{n}}^{\circ} = -\Delta H\sub{c,\mathnormal{n},Harnstoff}^{\circ} = +632\,\small\kilojoulepermole
 \end{gather*}
 \tag{10}</span></span></p>
 <p>Beachte das umgekehrte Vorzeichen der Enthalpie. Nun können wir <a href="#eq-thermal-met-combustion" class="quarto-xref">Gleichung&nbsp;12</a> mit <a href="#eq-urea-combustion-reverse" class="quarto-xref">Gleichung&nbsp;10</a> kombinieren, indem wir beide Gleichungen addieren. Wir haben gesagt, dass der Urin neben anderen Funktionen auch zur Stickstoffentsorgung genutzt wird. Wenn das die Vorgabe ist, dann müssen wir lediglich dafür sorgen, dass bei der Addition die entstandene Menge an <span class="math inline">\ce{N2}</span> aus <a href="#eq-thermal-met-combustion" class="quarto-xref">Gleichung&nbsp;12</a> genau der Menge an <span class="math inline">\ce{N2}</span> aus <a href="#eq-urea-combustion-reverse" class="quarto-xref">Gleichung&nbsp;10</a> entspricht. Das ist aber bereits in unserem Fall gegeben. Dann addieren wir einfach beide Gleichungen und erhalten</p>
@@ -440,13 +440,13 @@ window.Quarto = {
 <p>Bleibt nur noch übrig, die Enthalpien zu addieren. Das ist aber auch ganz einfach, da die Enthalpie eine Zustandsfunktion ist und wir das Hess’sche Gesetz anwenden.</p>
 <p><span class="math display">
 \begin{split}
-\Delta H\sub{metab,\mathnormal{n},Alanin}^{\circ}
+\Delta H\sub{c,metab,\mathnormal{n},Alanin}^{\circ}
     &amp;= \Delta H\sub{c,\mathnormal{n},Alanin}^{\circ} + \Delta H\sub{Urin,\mathnormal{n}}^{\circ} \\
-    &amp;= -1621\,\small\kilojoule_per_mole + 632\,\small\kilojoule_per_mole \\
-    &amp;= -989\,\small\kilojoule_per_mole.
+    &amp;= -1621\,\small\kilojoulepermole + 632\,\small\kilojoulepermole \\
+    &amp;= -989\,\small\kilojoulepermole.
 \end{split}
 </span></p>
-<p>Wenn wir also Alanin in unserem Körper verstoffwechseln, dann gewinnen wir <span class="math inline">-2932\,\kilojoule_per_mole</span> an Energie, was deutlich weniger ist als die Energie, die wir durch die thermische Verbrennung von Methionin gewinnen würden. Das liegt daran, dass wir den Stickstoff nicht in Form von gasförmigem Stickstoff sondern in Form von Harnstoff ausscheiden.</p>
+<p>Wenn wir also Alanin in unserem Körper verstoffwechseln, dann gewinnen wir <span class="math inline">-2932\,\kilojoulepermole</span> an Energie, was deutlich weniger ist als die Energie, die wir durch die thermische Verbrennung von Methionin gewinnen würden. Das liegt daran, dass wir den Stickstoff nicht in Form von gasförmigem Stickstoff sondern in Form von Harnstoff ausscheiden.</p>
 </section>
 <section id="schwefel-ausscheidung-im-urin" class="level4" data-number="3.3.2">
 <h4 data-number="3.3.2" class="anchored" data-anchor-id="schwefel-ausscheidung-im-urin"><span class="header-section-number">3.3.2</span> Schwefel Ausscheidung im Urin</h4>
@@ -455,7 +455,7 @@ window.Quarto = {
 \begin{gather*}
 \ce{2 C5H11NO2S(s) + 31/2 O2(g) -&gt;} \\
 \ce{10 CO2(g) + 11 H2O(l) + N2(g) + 2 SO2(g)} \\
-\Delta H\sub{c,\mathnormal{n},Methionin}^{\circ} = -3564\,\small\kilojoule_per_mole,
+\Delta H\sub{c,\mathnormal{n},Methionin}^{\circ} = -3564\,\small\kilojoulepermole,
 \end{gather*}
 \tag{12}</span></span></p>
 <p>Ähnlich wie bei Alanin stellen wir fest, dass der Schwefel nicht wie bei der thermischen Verbrennung von Methionin als Schwefeldioxid ausgeschieden wird. Stattdessen wird der Schwefel im Urin als Sulfat ausgeschieden<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> und damit gehen auch hier Energieverluste einher.</p>
@@ -468,8 +468,8 @@ window.Quarto = {
 \begin{split}
 \Delta H\sub{r,Sulfat}^{\circ}
     &amp;= \Delta H\sub{f,\mathnormal{\ce{H2SO4(aq)}}}^{\circ} - \Delta H\sub{f,\mathnormal{\ce{SO2(g)}}}^{\circ} - \frac{1}{2} \Delta H\sub{f,\mathnormal{\ce{O2(g)}}}^{\circ} - \Delta H\sub{f,\mathnormal{\ce{H2O(l)}}}^{\circ} \\
-    &amp;= -888\,\small\kilojoule_per_mole - \left( -297\,\small\kilojoule_per_mole \right) - \frac{1}{2} \cdot 0\,\small\kilojoule_per_mole - \left( -286\,\small\kilojoule_per_mole \right) \\
-    &amp;= -305\,\small\kilojoule_per_mole.
+    &amp;= -888\,\small\kilojoulepermole - \left( -297\,\small\kilojoulepermole \right) - \frac{1}{2} \cdot 0\,\small\kilojoulepermole - \left( -286\,\small\kilojoulepermole \right) \\
+    &amp;= -305\,\small\kilojoulepermole.
 \end{split}
 </span></p>
 <p>Beachte, dass wir die Enthalpie aus der Differenz der Enthalpien der Produkte und Edukte berechnet haben. Das ist eine weitere Anwendung des Hess’schen Gesetzes. Nun können wir den Energiegehalt der metabolischen Verbrennung von Methionin bestimmen, indem wir die Enthalpie der Sulfatbildung und der Harnstoffbildung zu der Enthalpie der thermischen Verbrennung von Methionin addieren. Zuerst betrachten wir die Bildung von Harnstoff und Sulfat als eine Einzelreaktion</p>
@@ -491,8 +491,8 @@ window.Quarto = {
 \begin{split}
 \Delta H\sub{Urin+Sulfat,\mathnormal{n}}^{\circ}
     &amp;= \Delta H\sub{Urin,\mathnormal{n}}^{\circ} + \Delta H\sub{r,Sulfat}^{\circ} \\
-    &amp;= 632\,\small\kilojoule_per_mole - 305\,\small\kilojoule_per_mole \\
-    &amp;= 327\,\small\kilojoule_per_mole.
+    &amp;= 632\,\small\kilojoulepermole - 305\,\small\kilojoulepermole \\
+    &amp;= 327\,\small\kilojoulepermole.
 \end{split}
 \tag{15}</span></span></p>
 <p>Nun können wir die Reaktionsgleichung der Verstoffwechselung von Methionin durch Addition von <a href="#eq-thermal-met-combustion" class="quarto-xref">Gleichung&nbsp;12</a> und <a href="#eq-urea-sulfate-metabolic-formation" class="quarto-xref">Gleichung&nbsp;14</a> erhalten. Wir bekommen</p>
@@ -516,8 +516,8 @@ window.Quarto = {
 \begin{split}
 \Delta H\sub{metab,\mathnormal{n},Methionin}^{\circ}
     &amp;= \Delta H\sub{c,\mathnormal{n},Methionin}^{\circ} + \Delta H\sub{Urin+Sulfat,\mathnormal{n}}^{\circ} \\
-    &amp;= -3564\,\small\kilojoule_per_mole + 327\,\small\kilojoule_per_mole \\
-    &amp;= -3237\,\small\kilojoule_per_mole.
+    &amp;= -3564\,\small\kilojoulepermole + 327\,\small\kilojoulepermole \\
+    &amp;= -3237\,\small\kilojoulepermole.
 \end{split}
 </span></p>
 <p>Somit verlieren wir durch die Ausscheidung von Stickstoff und Schwefel im Urin etwa 9% der Energie, die wir durch die thermische Verbrennung von Methionin gewinnen würden.</p>
