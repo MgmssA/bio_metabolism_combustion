@@ -434,7 +434,7 @@ $$
 \frac{n}{m} = \frac{1}{M}.
 $$
 
-Wenn wir das in @eq-eq-mass-enthalpy-step einsetzen bekommen wir
+Wenn wir das in @eq-mass-enthalpy-step einsetzen bekommen wir
 
 $$
 \Delta H_{\text{metab},m}^{\circ} = \frac{\Delta H_{\text{metab},n}^{\circ}}{M}.
