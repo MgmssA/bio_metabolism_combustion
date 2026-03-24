@@ -438,6 +438,28 @@ Wenn wir das in @eq-mass-enthalpy-step einsetzen bekommen wir
 
 $$
 \Delta H_{\text{metab},m}^{\circ} = \frac{\Delta H_{\text{metab},n}^{\circ}}{M}.
-$$
+$$ {#eq-mass-enthalpy-def}
 
 So können wir bei einer bekannten Substanz ohne Mühen die massenbezogene Metabolisierungsenergie berechnen.
+
+### Respiratorischer Quotient
+
+Betrachten wir das bei einer Verbrennung oder Metabolisierung verbrauchte Volumen an Sauerstoff. Wir können das leicht aus der Stoffmenge $n$ und dem molaren Volumen $V_n$ berechnen. Das verbrauchte Volumen an Sauerstoff ist
+
+$$
+V_{\ce{O2}} = n_{\ce{O2}} \cdot V_n.
+$$
+
+Das entstandene Volumen an Kohlendioxid ist
+
+$$
+V_{\ce{CO2}} = n_{\ce{CO2}} \cdot V_n.
+$$
+
+Dadurch können wir das Verhältnis aus entstandenem Kohlendioxid zu verbrauchtem Sauerstoff bestimmen. Dieses Verhältnis nennen wir den **respiratorischen Quotienten** $\mathrm{RQ}$ und berechnet sich wie folgt:
+
+$$
+\mathrm{RQ} = \frac{V_{\ce{CO2}}}{V_{\ce{O2}}} = \frac{n_{\ce{CO2}}}{n_{\ce{O2}}}.
+$$
+
+Der respiratorische Quotient ist eine wichtige Kenngrösse, um die Art der verstoffwechselten Nährstoffe zu bestimmen. Der $\mathrm{RQ}$ wird zum Beispiel für die Bestimmung des Grundumsatzes verwendet, um zu bestimmen, ob mehr Kohlenhydrate oder mehr Fette verstoffwechselt werden. Daneben kann der $\mathrm{RQ}$ auch für die Bestimmung von Stoffwechselstörungen, die Überwachung von Patienten auf der Intensivstation, und in der Sportmedizin zur Leistungsdiagnostik genutzt werden. 
