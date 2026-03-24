@@ -182,7 +182,7 @@ Der Stoffwechsel führt formal gesehen ebenfalls eine Verbrennung aus. Allerding
 - Es findet keine vollständige Verbrennung bezüglich des Stickstoffs statt, weil das Leben den Stickstoff als organische Verbindung ausscheidet. Dadurch geht wiederum ein Teil der Verbrennungsenergie verloren.
 - In der technischen Verbrennung wird alles Organische verbrannt; Tatsache ist, dass viele Faserstoffe gar nicht verdaut werden können. 
 
-Dadurch nennen wir die Verbrennung im Stoffwechsel eine Verstoffwechselung, um sie von der technischen Verbrennung zu unterscheiden. 
+Dadurch nennen wir die Verbrennung im Stoffwechsel eine Verstoffwechselung oder Metabolisiserung, um sie von der technischen Verbrennung zu unterscheiden. 
 
 Wir betrachten jetzt die metabolische Verbrennung von drei der vier Klassen von biologischen Makromolekülen, die als Nahrungsquelle dienen. Das sind die Kohlenhydrate, die Fette und die Proteine. Die Verbrennung von DNA lassen wir aus, da sie in der Nahrung nur einen sehr kleinen Anteil ausmacht. Auch Proteine dienen eher als Baustoff und nur dann als Energiequelle, wenn die Kohlenhydrate und Fette bereits verbraucht sind.
 
@@ -197,7 +197,7 @@ $$
 \end{gather*}
 $$ {#eq-glucose-combustion}
 
-Fructose, die ebenfalls ein Zucker ist und dieselbe Summenformel wie Glucose hat, wird fast mit derselben Enthalpie verstoffwechselt. Die Ribose, ein Fünffachzucker, der in der DNA vorkommt, verstoffwechselt in der folgenden Reaktion
+Fructose, die ebenfalls ein Zucker ist und dieselbe Summenformel wie Glucose hat, wird fast mit derselben Enthalpie meabolisiert. Die Ribose, ein Fünffachzucker, der in der DNA vorkommt, metabolisiert in der folgenden Reaktion
 
 $$
 \begin{gather*}
@@ -206,11 +206,11 @@ $$
 \end{gather*}
 $$
 
-Die Verstoffwechselung von Zucker entspricht der thermischen Verbrennung mit Brennwert, da die Produkte in ihren Standardzustand überführt werden. Dadurch liegt das Wasser als Flüssigkeit vor und nicht als Dampf. 
+Die Metabolisierung von Zucker entspricht der thermischen Verbrennung mit Brennwert, da die Produkte in ihren Standardzustand überführt werden. Dadurch liegt das Wasser als Flüssigkeit vor und nicht als Dampf. 
 
 ### Lipide
 
-Wir verstoffwechseln jetzt zuerst ein einfache Fettsäure, nämlich die Palmitinsäure. Die Palmitinsäure kommt in vielen Fetten vor, zum Beispiel in Palmöl, und ist damit eine der häufigsten Fettsäuren in der Nahrung. Sie hat die Summenformel $\ce{C16H32O2}$ und verbrennt nach der Reaktion
+Wir metabolisieren jetzt zuerst ein einfache Fettsäure, nämlich die Palmitinsäure. Die Palmitinsäure kommt in vielen Fetten vor, zum Beispiel in Palmöl, und ist damit eine der häufigsten Fettsäuren in der Nahrung. Sie hat die Summenformel $\ce{C16H32O2}$ und verbrennt nach der Reaktion
 
 $$
 \begin{gather*}
@@ -228,7 +228,7 @@ $$
 \end{gather*}
 $$ {#eq-oleic-combustion}
 
-Auch im Fall der Lipide entspricht die Verstoffwechselung der thermischen Verbrennung mit Brennwert. 
+Auch im Fall der Lipide entspricht die Metabolisierung der thermischen Verbrennung mit Brennwert. 
 
 ### Proteine
 
@@ -256,7 +256,7 @@ $$
 \end{gather*}
 $$ {#eq-urea-combustion}
 
-Das zeigt, welchen Energiegehalt wir durch den Urin verlieren. Das bedeutet aber auch, dass die Verstoffwechselung von Methionin in unserem Körper um einen gewissen Betrag verringert wird. Dieser Betrag muss ja nach Hess genau einer gewissen Menge verbrannten Harnstoff entsprechen. Welcher Betrag ist es denn?
+Das zeigt, welchen Energiegehalt wir durch den Urin verlieren. Das bedeutet aber auch, dass die Metabolisierung von Methionin in unserem Körper um einen gewissen Betrag verringert wird. Dieser Betrag muss ja nach Hess genau einer gewissen Menge verbrannten Harnstoff entsprechen. Welcher Betrag ist es denn?
 
 In @eq-urea-combustion steht Harnstoff noch auf der Eduktseite. Wir bräuchten es aber auf der Produktseite, damit das unserem Stoffwechsel einigermassen entspricht. Dazu lassen wir die Reaktion aus @eq-urea-combustion einfach rückwärts laufen.
 
@@ -296,7 +296,7 @@ $$
 \end{split}
 $$
 
-Wenn wir also Alanin in unserem Körper verstoffwechseln, dann gewinnen wir $-2932\,\kilojoulepermole$ an Energie, was deutlich weniger ist als die Energie, die wir durch die thermische Verbrennung von Methionin gewinnen würden. Das liegt daran, dass wir den Stickstoff nicht in Form von gasförmigem Stickstoff sondern in Form von Harnstoff ausscheiden.
+Wenn wir also Alanin in unserem Körper metabolisieren, dann gewinnen wir $-2932\,\kilojoulepermole$ an Energie, was deutlich weniger ist als die Energie, die wir durch die thermische Verbrennung von Methionin gewinnen würden. Das liegt daran, dass wir den Stickstoff nicht in Form von gasförmigem Stickstoff sondern in Form von Harnstoff ausscheiden.
 
 #### Schwefel Ausscheidung im Urin
 
@@ -358,7 +358,7 @@ $$
 \end{split}
 $$ {#eq-urea-sulfate-metabolic-formation-enthalpy}
 
-Nun können wir die Reaktionsgleichung der Verstoffwechselung von Methionin durch Addition von @eq-thermal-met-combustion und @eq-urea-sulfate-metabolic-formation erhalten. Wir bekommen
+Nun können wir die Reaktionsgleichung der Metabolisierung von Methionin durch Addition von @eq-thermal-met-combustion und @eq-urea-sulfate-metabolic-formation erhalten. Wir bekommen
 
 $$
 \begin{gather*}
@@ -378,7 +378,7 @@ $$
 \end{gather*}
 $$ {#eq-metabolic-met-combustion}
 
-Die Enthalpie der Verstoffwechselung von Methionin ist die Summe der Enthalpien der thermischen Verbrennung von Methionin und dem Wert aus @eq-urea-sulfate-metabolic-formation-enthalpy. Es ergibt sich
+Die Enthalpie der Metabolisierung von Methionin ist die Summe der Enthalpien der thermischen Verbrennung von Methionin und dem Wert aus @eq-urea-sulfate-metabolic-formation-enthalpy. Es ergibt sich
 
 $$
 \begin{split}
@@ -391,5 +391,53 @@ $$
 
 Somit verlieren wir durch die Ausscheidung von Stickstoff und Schwefel im Urin etwa 9% der Energie, die wir durch die thermische Verbrennung von Methionin gewinnen würden.
 
+### Energie im Metabolismus
 
+Der Metabolismus lässt sich ganz gut mit Standardenthalpien beschreiben. Da wo eine grössere Genauigkeit notwendig ist, können die thermodynamischen Werte für die jeweilige Körpertemperatur benutzt werden statt $T = 298\,\kelvin$. Die allgemeine Gleichung beim Abbau von Biomasse, oder Nahrung, ist ähnlich @eq-biomass-combustion mit den notwendigen Anpassungen beim Abbau:
 
+$$
+\begin{gather*}
+\ce{{Biomasse} + x O2(g) ->} \\
+\ce{a CO2(g) + b H2O(l) + c CO(NH2)2(g) + d H2SO4(g)}.
+\end{gather*}
+$$ {#eq-biomass-metabolization}
+
+Die dazugehörig molare Enthalpie ist dieselbe, wie bei der technischen Verbrennung und schreibt sich
+
+$$
+\Delta H_{\text{metab},n}^{\circ} = \Delta U_{\text{metab},n} - p \Delta V_n.
+$$
+
+Vergiss nicht; die Enthalpie ist diejenige Energie, die bei konstantem Druck verwendbar wird. Sie ergibt sich aus der inneren Energie abzüglich der Expansionsarbeit, die die beteiligten Gase bedingen. Dabei ist der Druck $p = 101325\,\pascal$ und die Temperatur $T = 298\,\kelvin$ und stellen somit Standardbedingungen dar. Dadurch ist das molare Volumen $V_n = 0.0245\cubicmeterpermole$ bei Annahme eines perfekten Gases. 
+
+Die molare Enthalpie ist so definiert
+
+$$
+\Delta H_{\text{metab}, n}^{\circ} = \frac{\Delta H_{\text{metab},n}^{\circ}}{n},
+$$
+
+sodass die Gesamtenthalpie einer metabolischen Abbaureaktion von Biomasse
+
+$$
+\Delta H_{\text{metab}}^{\circ} = n \cdot \Delta H_{\text{metab},n}^{\circ}
+$$ {#eq-molar-enthalpy-def}
+
+wäre. Weiterhin kann hieraus die im Alltag viel praktischere massenbezogene Enthalpie abgeleitet werden. Wir teilen @eq-molar-enthalpy-def durch die gegebene Masse $m$ und erhalten
+
+$$
+\frac{\Delta H_{\text{metab}}^{\circ}}{m} = \frac{n \cdot \Delta H_{\text{metab},n}^{\circ}}{m}.
+$$ {#eq-mass-enthalpy-step}
+
+Auf der linken Seite befindet sich bereits die Definition der auf Masse bezogenen Enthalpie $\Delta H_{\text{metab},m}^{\circ}$. Die werden wir dort auch gleich einsetzen. Da die Masse $m$ einer Substanz, sich aus dem Produkt der Stoffmenge $n$ und der molarer Masse $M$ ergibt $m = n \cdot M$, können wir für den Quotienten aus Stoffmenge und Masse folgendes schreiben:
+
+$$
+\frac{n}{m} = \frac{1}{M}.
+$$
+
+Wenn wir das in @eq-eq-mass-enthalpy-step einsetzen bekommen wir
+
+$$
+\Delta H_{\text{metab},m}^{\circ} = \frac{\Delta H_{\text{metab},n}^{\circ}}{M}.
+$$
+
+So können wir bei einer bekannten Substanz ohne Mühen die massenbezogene Metabolisierungsenergie berechnen.
