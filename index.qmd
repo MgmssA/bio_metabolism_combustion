@@ -12,7 +12,7 @@
 
 ## Verbrennung 
 
-Die Verbrennung ist ein chemischer Prozess, bei dem eine Ausgangssubstanz durch Sauerstoff zersetzt wird. Dabei wird die innere Energie der Ausgangssubstanz in Wärme und Licht umgewandelt und die Ausgangssubstanz selbst in gasförmige Bestandteile umgewandelt. Die Hauptreaktion ist die Oxidation einiger oder aller Atome der ursprünglichen Verbindung. Di gasförmigen Produkte sind bei einer vollständigen Verbrennung die entsprechenden Oxide der Elemente.
+Die Verbrennung ist ein chemischer Prozess, bei dem eine Ausgangssubstanz durch Sauerstoff zersetzt wird. Dabei wird die innere Energie der Ausgangssubstanz in Wärme und Licht umgewandelt und die Ausgangssubstanz selbst in gasförmige Bestandteile umgewandelt. Die Hauptreaktion ist die Oxidation einiger oder aller Atome der ursprünglichen Verbindung. Die gasförmigen Produkte sind bei einer vollständigen Verbrennung die entsprechenden Oxide der Elemente.
 
 ### Bedeutung der Verbrennung
 
