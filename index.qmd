@@ -16,7 +16,7 @@ Die Verbrennung ist ein chemischer Prozess, bei dem eine Ausgangssubstanz durch 
 
 ### Bedeutung der Verbrennung
 
-Der Mensch nutzt die Verbrennung seit Jahrtausenden für Nahrungszubereitung, Schutz und Licht. Die Verbrennung ist jedoch auch die Grundlage der technischen Entwicklung der Menschheit. Daneben kann sie auch deren Untergang sein durch die exzessive Verbrennung von organischen Stoffen, die seit Jahrmillionen als fossile Energieträger unter der Erde liegen.
+Der Mensch nutzt die Verbrennung seit Jahrtausenden für Nahrungszubereitung, bei der durch das Feuer Nährstoffe in verdaubarer Form umgewandelt werden. Feuer spendet jedoch auch Licht und dadurch Schutz vor Kälte und Wildtieren. Die Verbrennung ist jedoch auch die Grundlage der technischen Entwicklung der Menschheit. Daneben kann sie auch deren Untergang sein durch die exzessive Verbrennung von organischen Stoffen, die seit Jahrmillionen als fossile Energieträger unter der Erde liegen.
 
 Alleine wegen den Abgasen und dem Rauch, werden viele Verbrennungsprozesse immer in Kontakt mit der Atmosphäre gefahren. Das heisst sie finden bei Atmosphärendruck statt und von daher bei konstantem Druck abläuft. Dadurch ist die Enthalpie die entscheidende thermodynamische Grösse, die die Verbrennung nützlich charakterisiert.
 
