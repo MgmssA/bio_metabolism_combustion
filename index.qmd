@@ -215,7 +215,7 @@ Wir metabolisieren jetzt zuerst ein einfache Fettsäure, nämlich die Palmitins�
 $$
 \begin{gather*}
 \ce{C16H32O2(s) + 48 O2(g) -> 16 CO2(g) + 16 H2O(l)} \\
-\Delta H\sub{c,\mathnormal{n},Palmitinsäure}^{\circ} = -10016\,\small\kilojoulepermole.
+\Delta H\sub{metab,\mathnormal{n},Palmitinsäure}^{\circ} = -10016\,\small\kilojoulepermole.
 \end{gather*}
 $$ {#eq-palmitic-combustion}
 
@@ -224,7 +224,7 @@ Eine weitere Fettsäure, die in der Nahrung vorkommt, ist die Ölsäure. Sie ist
 $$
 \begin{gather*}
 \ce{C18H34O2(s) + 51 O2(g) -> 18 CO2(g) + 17 H2O(l)} \\
-\Delta H\sub{c,\mathnormal{n},Ölsäure}^{\circ} = -11161\,\small\kilojoulepermole.
+\Delta H\sub{metab,\mathnormal{n},Ölsäure}^{\circ} = -11161\,\small\kilojoulepermole.
 \end{gather*}
 $$ {#eq-oleic-combustion}
 
@@ -289,7 +289,7 @@ Bleibt nur noch übrig, die Enthalpien zu addieren. Das ist aber auch ganz einfa
 
 $$
 \begin{split}
-\Delta H\sub{c,metab,\mathnormal{n},Alanin}^{\circ} 
+\Delta H\sub{metab,\mathnormal{n},Alanin}^{\circ} 
     &= \Delta H\sub{c,\mathnormal{n},Alanin}^{\circ} + \Delta H\sub{Urin,\mathnormal{n}}^{\circ} \\
     &= -1621\,\small\kilojoulepermole + 632\,\small\kilojoulepermole \\
     &= -989\,\small\kilojoulepermole.
