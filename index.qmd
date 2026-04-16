@@ -92,7 +92,7 @@ $$
 \ce{SO2(g) + 1/2 O2(g) -> SO3(g)}
 $$
 
-erfolgen. Dann haben wir eher etwas, was wie die Kohlenstoffverbrennung aussieht. Wir werden aufgrund dieser unterschiedlichen Reaktionsmöglichkeiten nur @eq-sulfur-combustion anwenden.
+erfolgen. Dann haben wir eher etwas, was wie die Kohlenstoffverbrennung aussieht. Wir werden aufgrund dieser unterschiedlichen Reaktionsmöglichkeiten nur @eq-sulfur-combustion anwenden. 
 
 ### Verbrennen organischer Materie
 
@@ -172,6 +172,38 @@ $$
 $$
 
 und dadurch höher als bei der Verbrennung bei dem das Wasser nicht zurück gewonnen wird. Je mehr Wasser bei der Verbrennung entsteht, desto größer ist die verlorene Energie durch das Entweichen des Dampfes. 
+
+### Messung von schwefelhaltigen Verbindungen
+
+Bei der Messung der Verbrennungsenthalpie von schwefelhaltigen Substanzen ergeben sich einige Schwierigkeiten. Die Verbrennung von schwefelhaltigen Substanzen erfolgt in einem rotierenden Kalorimeter. So wird das entstehende $\ce{SO3}$ mit vorhandenem Wasser zu Schwefelsäure $\ce{H2SO4}$ umgesetzt. Wir schauen uns die Reaktionen genauer an. Zuerst erfolgt die weitere Oxidation von Schwefeldioxid zu Schwefeltrioxid
+
+$$
+\ce{SO2(g) + O2(g) -> SO3(g)},\;\Delta H_{\text{r},n,1}^{\circ} = -98\,\small\kilojoulepermole.
+$$ {#eq-sulfur-dioxide-oxidation}
+
+Das kleine "r" Index steht für Reaktion. Aus Schwefeltrioxid und Wasser entsteht dann Schwefelsäure 
+
+$$
+\ce{SO3(g) + H2O(l) -> H2SO4(l)},\;\Delta H_{\text{r},n,2}^{\circ} = -175\,\small\kilojoulepermole.
+$$
+
+Daraus ergibt sich die Gesamtreaktion
+
+$$
+\ce{SO2(g) + O2(g) + H2O(l) -> H2SO4(l)}
+$$
+
+mit der Reaktionsenthalpie
+
+$$
+\begin{split}
+\Delta H_{\text{r},n}^{\circ}\left(\ce{H2SO4}\right) &= \Delta H_{\text{r},n,1}^{\circ} + \Delta H_{\text{r},n,2}^{\circ} \\
+&= -98\,\small\kilojoulepermole + \left(-175\,\small\kilojoulepermole \right) \\
+&= -273\,\small\kilojoulepermole.
+\end{split}
+$$ {#eq-sulfuric-acid-from-sulfur-dioxide}
+
+Alle Verbrennungsenthalpien von schwefelhaltigen Verbindungen haben die Schwefelsäure als ein Endprodukt. Wenn die reine Verbrennungsreaktion betrachtet wird, dann ist die Verbrennungsenthalpie um den Betrag von $-273\,\small\kilojoulepermole$ höher als die Verbrennungsenthalpie, die zu Schwefeldioxid führt.
 
 ## Stoffwechsel
 
@@ -305,91 +337,72 @@ Die Aminosäure Methionin besitzt sogar eine Thiolgruppe und damit auch Schwefel
 $$
 \begin{gather*}
 \ce{2 C5H11NO2S(s) + 31/2 O2(g) ->} \\
-\ce{10 CO2(g) + 11 H2O(l) + N2(g) + 2 SO2(g)} \\
-\Delta H\sub{c,\mathnormal{n},Methionin}^{\circ} = -3564\,\small\kilojoulepermole,
+\ce{10 CO2(g) + 11 H2O(l) + N2(g) + 2 SO2(g)}
 \end{gather*}
 $$ {#eq-thermal-met-combustion}
 
-Ähnlich wie bei Alanin stellen wir fest, dass der Schwefel nicht wie bei der thermischen Verbrennung von Methionin als Schwefeldioxid ausgeschieden wird. Stattdessen wird der Schwefel im Urin als Sulfat ausgeschieden^[Es gibt andere Ausscheidungsmechanismen, die zu anderen Schwefelverbindungen führen. Wir konzentrieren uns allerdings auf den Sulfatweg, weil er in Tieren durchaus oft vorkommt. Zum Beispiel wurde festgestellt, dass der Großteil des Schwefels im Urin fast bis 90% als Sulfat ausgeschieden wird.] und damit gehen auch hier Energieverluste einher. 
-
-Wir werden zur Bestimmung der Energieverluste durch die Sulfatausscheidung im Urin lediglich die Bildung der Schwefelsäure aus Schwefeldioxid betrachten. Die dafür notwendige Reaktion ist die folgende
+Allerdings wird in der kalorimetrischen Messung von Verbrennungsenthalpien von schwefelhaltigen Verbindungen nicht das Schwefeldioxid als Endprodukt gemessen, sondern die Schwefelsäure. Um die tatsächliche thermische Verbrennungsenthalpie von Methionin zu bestimmen, müssen wir @eq-sulfuric-acid-from-sulfur-dioxide von der obigen Gleichung subtrahieren. Das geschieht indem man @eq-sulfuric-acid-from-sulfur-dioxide ugedreht dazu addiert. Dabei muss die Anzahl der $\ce{SO2}$ Moleküle angepasst werden. Daraus ergibt sich die Gesamtreaktion
 
 $$
-\ce{SO2(g) + 1/2 O2(g) + H2O(l) -> H2SO4(aq)}.
-$$ {#eq-sulfate-formation}
+\begin{gather*}
+\ce{2 C5H11NO2S(s) + 31/2 O2(g) + 2 SO2(g) + O2(g) + 2 H2O(l) ->} \\
+\ce{10 CO2(g) + 11 H2O(l) + N2(g) + 2 SO2(g) + 2 H2SO4(aq)}
+\end{gather*}
+$$
 
-Da die Enthalpie eine Zustandsfunktion ist, können wir die Enthalpie der Sulfatbildung aus den Bildungsenthalpien der Edukte und Produkte bestimmen. Diese Reaktion hat folgende Standardenthalpie
+Nach Kürzen der Substanzen, die auf beiden Seiten gleich sind, erhalten wir
+
+$$
+\begin{gather*}
+\ce{2 C5H11NO2S(s) + 35/2 O2(g) ->} \\
+\ce{10 CO2(g) + 9 H2O(l) + N2(g) + 2 H2SO4(aq)}.
+\end{gather*}   
+$$ {#eq-calorimetric-met-combustion}
+
+Wenn also Verbrennungsenthalpien von Aminosäuren bestimmt und angegeben werden, dann wurde die Verbrennung so gefahren, dass Schwefelsäure als Endprodukt entstand. Im Falle von Methionin beträgt die angegebene Verbrennungsenthalpie $\Delta H_{\text{kalorimeter},n,\text{Met}} = -3564\,\small\kilojoulepermole$. Dadurch ist die wahre Verbrennungsenthalpie von Methionin nach @eq-thermal-met-combustion
 
 $$
 \begin{split}
-\Delta H\sub{r,Sulfat}^{\circ} 
-    &= \Delta H\sub{f,\mathnormal{\ce{H2SO4(aq)}}}^{\circ} - \Delta H\sub{f,\mathnormal{\ce{SO2(g)}}}^{\circ} - \frac{1}{2} \Delta H\sub{f,\mathnormal{\ce{O2(g)}}}^{\circ} - \Delta H\sub{f,\mathnormal{\ce{H2O(l)}}}^{\circ} \\
-    &= -888\,\small\kilojoulepermole - \left( -297\,\small\kilojoulepermole \right) - \frac{1}{2} \cdot 0\,\small\kilojoulepermole - \left( -286\,\small\kilojoulepermole \right) \\
-    &= -305\,\small\kilojoulepermole. 
+\Delta H_{\text{therm},n,\text{Met}} &= \Delta H_{\text{kalorimeter},n,\text{Met}} - 2 \cdot \Delta H_{\text{r},n}^{\circ}\left(\ce{H2SO4}\right) \\
+&= -3564\,\small\kilojoulepermole - 2 \cdot (-273\,\small\kilojoulepermole) \\
+&= -3018\,\small\kilojoulepermole.
 \end{split}
 $$
 
-Beachte, dass wir die Enthalpie aus der Differenz der Enthalpien der Produkte und Edukte berechnet haben. Das ist eine weitere Anwendung des Hess'schen Gesetzes. Nun können wir den Energiegehalt der metabolischen Verbrennung von Methionin bestimmen, indem wir die Enthalpie der Sulfatbildung und der Harnstoffbildung zu der Enthalpie der thermischen Verbrennung von Methionin addieren. Zuerst betrachten wir die Bildung von Harnstoff und Sulfat als eine Einzelreaktion
+Der Großteil des Schwefel wird im Urin als Sulfat ausgeschieden^[Es gibt andere Ausscheidungsmechanismen, die zu anderen Schwefelverbindungen führen. Wir konzentrieren uns allerdings auf den Sulfatweg, weil er in Tieren durchaus oft vorkommt. Zum Beispiel wurde festgestellt, dass der Großteil des Schwefels im Urin fast bis 90% als Sulfat ausgeschieden wird.]. Dadurch entspricht die angegebene kalorimetrische Verbrennungsenthalpie von Methionin bis auf den Harnstoff, fast der metabolischen Verbrennung von Methionin. Um die metabolische Verbrennung von Methionin zu bestimmen, müssen wir noch lediglich die Enthalpie der umgekehrten Harnstoffverbrennung addieren. Das tun wir gleich der @eq-calorimetric-met-combustion an und erhalten
 
 $$
 \begin{gather*}
-\ce{CO2(g) + 2 H2O(l) + N2(g) + 2 SO2(g) + 1/2 O2(g) + H2O(l) ->} \\
-\ce{CO(NH2)2(s) + 3/2 O2(g) + H2SO4(aq)}.
+\ce{2 C5H11NO2S(s) + 35/2 O2(g) + CO2(g) + 2 H2O(l) + N2(g) ->} \\
+\ce{10 CO2(g) + 9 H2O(l) + N2(g) + 2 H2SO4(aq) + CO(NH2)2(s) + 3/2 O2(g)}.
 \end{gather*}
 $$
 
-Wir addieren einzelne Substanzen auf beiden Seiten der Reaktion und ziehen die Anzahl der Sauerstoffmoleküle auf der rechten Seite zusammen. Dadurch erhalten wir
+Durch Kürzen der Substanzen, die auf beiden Seiten gleich sind, bekommen wir
 
 $$
 \begin{gather*}
-\ce{CO2(g) + 3 H2O(l) + N2(g) + 2 SO2(g) ->} \\
-\ce{CO(NH2)2(s) + H2SO4(aq) + O2(g)}.
+\ce{2 C5H11NO2S(s) + 16 O2(g) ->} \\
+\ce{9 CO2(g) + 7 H2O(l) + 2 H2SO4(aq) + CO(NH2)2(s)}.
 \end{gather*}
-$$ {#eq-urea-sulfate-metabolic-formation}
+$$ {#eq-metab-met-combustion}
 
-Jetzt können wir die Enthalpie dieser Reaktion bestimmen, indem wir die Enthalpien der Bildung von Harnstoff und Schwefelsäure addieren. Das ist möglich, da die Enthalpie eine Zustandsfunktion ist. Es ergibt sich
+Diese Reaktion hat folgende Standardenthalpie
 
 $$
 \begin{split}
-\Delta H\sub{Urin+Sulfat,\mathnormal{n}}^{\circ} 
-    &= \Delta H\sub{Urin,\mathnormal{n}}^{\circ} + \Delta H\sub{r,Sulfat}^{\circ} \\
-    &= 632\,\small\kilojoulepermole - 305\,\small\kilojoulepermole \\
-    &= 327\,\small\kilojoulepermole.
-\end{split}
-$$ {#eq-urea-sulfate-metabolic-formation-enthalpy}
-
-Nun können wir die Reaktionsgleichung der Metabolisierung von Methionin durch Addition von @eq-thermal-met-combustion und @eq-urea-sulfate-metabolic-formation erhalten. Wir bekommen
-
-$$
-\begin{gather*}
-\ce{2 C5H11NO2S(s) + 31/2 O2(g)} \\
-\ce{+ CO2(g) + 3 H2O(l) + N2(g) + 2 SO2(g) ->} \\
-\ce{10 CO2(g) + 11 H2O(l) + N2(g) + 2 SO2(g)} \\
-\ce{+ CO(NH2)2(s) + H2SO4(aq) + O2(g)}.
-\end{gather*}
-$$
-
-Durch Kürzen der Substanzen, die auf beiden Seiten der Reaktion gleich sind, erhalten wir
-
-$$
-\begin{gather*}
-\ce{2 C5H11NO2S(s) + 29/2 O2(g) ->} \\
-\ce{9 CO2(g) + 8 H2O(l) + CO(NH2)2(s) + H2SO4(aq)}.
-\end{gather*}
-$$ {#eq-metabolic-met-combustion}
-
-Die Enthalpie der Metabolisierung von Methionin ist die Summe der Enthalpien der thermischen Verbrennung von Methionin und dem Wert aus @eq-urea-sulfate-metabolic-formation-enthalpy. Es ergibt sich
-
-$$
-\begin{split}
-\Delta H\sub{metab,\mathnormal{n},Methionin}^{\circ} 
-    &= \Delta H\sub{c,\mathnormal{n},Methionin}^{\circ} + \Delta H\sub{Urin+Sulfat,\mathnormal{n}}^{\circ} \\
-    &= -3564\,\small\kilojoulepermole + 327\,\small\kilojoulepermole \\
-    &= -3237\,\small\kilojoulepermole.
+\Delta H_{\text{metab},n,\text{Met}}^{\circ} 
+    &= \Delta H_{\text{kalorimeter},n,\text{Met}} + \Delta H_{\text{Urin},n}^{\circ} \\
+    &= -3564\,\small\kilojoulepermole + 632\,\small\kilojoulepermole \\
+    &= -2932\,\small\kilojoulepermole.
 \end{split}
 $$
 
-Somit verlieren wir durch die Ausscheidung von Stickstoff und Schwefel im Urin etwa 9% der Energie, die wir durch die thermische Verbrennung von Methionin gewinnen würden.
+Beachte bei der Metabolisierung von schwefelhaltigen Substanzen folgendes:
+
+- Die angegebenen Verbrennungsenthalpien von schwefelhaltigen Substanzen entsprechen nicht der Verbrennung zu Schwefeldioxid, sondern der Verbrennung zu Schwefelsäure^[Das sollte jedoch im Einzelfall immer nachgeprüft werden].
+- Dadurch muss lediglich die Enthalpie der umgekehrten Harnstoffverbrennung zu der angegebenen Verbrennungsenthalpie addiert werden, um die metabolische Verbrennung zu erhalten.
+- Die tatsächliche thermische Verbrennung von schwefelhaltigen Substanzen ist um die Bildung von Schwefelsäure weniger exotherm.
 
 ### Energie im Metabolismus
 

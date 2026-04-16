@@ -8,7 +8,7 @@
 
 <meta name="author" content="Călin Aurel Drăgan">
 
-<title>quarto-inputf43d69073252341f</title>
+<title>quarto-inputadcec0302e64d2c3</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -121,7 +121,7 @@ window.Quarto = {
       <div>
       <div class="quarto-title-meta-heading">Geändert</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">24. März 2026</p>
+        <p class="date-modified">16. April 2026</p>
       </div>
     </div>
       
@@ -157,6 +157,7 @@ window.Quarto = {
   <ul>
   <li><a href="#heizwert" id="toc-heizwert" class="nav-link" data-scroll-target="#heizwert"><span class="header-section-number">2.1</span> Heizwert</a></li>
   <li><a href="#brennwert---wasserrückgewinnung" id="toc-brennwert---wasserrückgewinnung" class="nav-link" data-scroll-target="#brennwert---wasserrückgewinnung"><span class="header-section-number">2.2</span> Brennwert - Wasserrückgewinnung</a></li>
+  <li><a href="#messung-von-schwefelhaltigen-verbindungen" id="toc-messung-von-schwefelhaltigen-verbindungen" class="nav-link" data-scroll-target="#messung-von-schwefelhaltigen-verbindungen"><span class="header-section-number">2.3</span> Messung von schwefelhaltigen Verbindungen</a></li>
   </ul></li>
   <li><a href="#stoffwechsel" id="toc-stoffwechsel" class="nav-link" data-scroll-target="#stoffwechsel"><span class="header-section-number">3</span> Stoffwechsel</a>
   <ul>
@@ -349,6 +350,30 @@ window.Quarto = {
 </span></p>
 <p>und dadurch höher als bei der Verbrennung bei dem das Wasser nicht zurück gewonnen wird. Je mehr Wasser bei der Verbrennung entsteht, desto größer ist die verlorene Energie durch das Entweichen des Dampfes.</p>
 </section>
+<section id="messung-von-schwefelhaltigen-verbindungen" class="level3" data-number="2.3">
+<h3 data-number="2.3" class="anchored" data-anchor-id="messung-von-schwefelhaltigen-verbindungen"><span class="header-section-number">2.3</span> Messung von schwefelhaltigen Verbindungen</h3>
+<p>Bei der Messung der Verbrennungsenthalpie von schwefelhaltigen Substanzen ergeben sich einige Schwierigkeiten. Die Verbrennung von schwefelhaltigen Substanzen erfolgt in einem rotierenden Kalorimeter. So wird das entstehende <span class="math inline">\ce{SO3}</span> mit vorhandenem Wasser zu Schwefelsäure <span class="math inline">\ce{H2SO4}</span> umgesetzt. Wir schauen uns die Reaktionen genauer an. Zuerst erfolgt die weitere Oxidation von Schwefeldioxid zu Schwefeltrioxid</p>
+<p><span id="eq-sulfur-dioxide-oxidation"><span class="math display">
+\ce{SO2(g) + O2(g) -&gt; SO3(g)},\;\Delta H_{\text{r},n,1}^{\circ} = -98\,\small\kilojoulepermole.
+\tag{5}</span></span></p>
+<p>Das kleine “r” Index steht für Reaktion. Aus Schwefeltrioxid und Wasser entsteht dann Schwefelsäure</p>
+<p><span class="math display">
+\ce{SO3(g) + H2O(l) -&gt; H2SO4(l)},\;\Delta H_{\text{r},n,2}^{\circ} = -175\,\small\kilojoulepermole.
+</span></p>
+<p>Daraus ergibt sich die Gesamtreaktion</p>
+<p><span class="math display">
+\ce{SO2(g) + O2(g) + H2O(l) -&gt; H2SO4(l)}
+</span></p>
+<p>mit der Reaktionsenthalpie</p>
+<p><span id="eq-sulfuric-acid-from-sulfur-dioxide"><span class="math display">
+\begin{split}
+\Delta H_{\text{r},n}^{\circ}\left(\ce{H2SO4}\right) &amp;= \Delta H_{\text{r},n,1}^{\circ} + \Delta H_{\text{r},n,2}^{\circ} \\
+&amp;= -98\,\small\kilojoulepermole + \left(-175\,\small\kilojoulepermole \right) \\
+&amp;= -273\,\small\kilojoulepermole.
+\end{split}
+\tag{6}</span></span></p>
+<p>Alle Verbrennungsenthalpien von schwefelhaltigen Verbindungen haben die Schwefelsäure als ein Endprodukt. Wenn die reine Verbrennungsreaktion betrachtet wird, dann ist die Verbrennungsenthalpie um den Betrag von <span class="math inline">-273\,\small\kilojoulepermole</span> höher als die Verbrennungsenthalpie, die zu Schwefeldioxid führt.</p>
+</section>
 </section>
 <section id="stoffwechsel" class="level2" data-number="3">
 <h2 data-number="3" class="anchored" data-anchor-id="stoffwechsel"><span class="header-section-number">3</span> Stoffwechsel</h2>
@@ -369,7 +394,7 @@ window.Quarto = {
 \ce{C6H12O6(s) + 6 O2(g) -&gt; 6 CO2(g) + 6 H2O(l)}\\
 \Delta H\sub{metab,\mathnormal{n},Glucose}^{\circ} = -2805\,\small\kilojoulepermole.
 \end{gather*}
-\tag{5}</span></span></p>
+\tag{7}</span></span></p>
 <p>Fructose, die ebenfalls ein Zucker ist und dieselbe Summenformel wie Glucose hat, wird fast mit derselben Enthalpie meabolisiert. Die Ribose, ein Fünffachzucker, der in der DNA vorkommt, metabolisiert in der folgenden Reaktion</p>
 <p><span class="math display">
 \begin{gather*}
@@ -387,14 +412,14 @@ window.Quarto = {
 \ce{C16H32O2(s) + 48 O2(g) -&gt; 16 CO2(g) + 16 H2O(l)} \\
 \Delta H\sub{metab,\mathnormal{n},Palmitinsäure}^{\circ} = -10016\,\small\kilojoulepermole.
 \end{gather*}
-\tag{6}</span></span></p>
+\tag{8}</span></span></p>
 <p>Eine weitere Fettsäure, die in der Nahrung vorkommt, ist die Ölsäure. Sie ist eine einfach ungesättigte Fettsäure, die in Olivenöl vorkommt. Sie hat die Summenformel <span class="math inline">\ce{C18H34O2}</span> und verbrennt nach der Reaktion</p>
 <p><span id="eq-oleic-combustion"><span class="math display">
 \begin{gather*}
 \ce{C18H34O2(s) + 51 O2(g) -&gt; 18 CO2(g) + 17 H2O(l)} \\
 \Delta H\sub{metab,\mathnormal{n},Ölsäure}^{\circ} = -11161\,\small\kilojoulepermole.
 \end{gather*}
-\tag{7}</span></span></p>
+\tag{9}</span></span></p>
 <p>Auch im Fall der Lipide entspricht die Metabolisierung der thermischen Verbrennung mit Brennwert.</p>
 </section>
 <section id="proteine" class="level3" data-number="3.3">
@@ -408,7 +433,7 @@ window.Quarto = {
 \ce{2 C3H7NO2(s) + 15/2 O2(g) -&gt; 6 CO2(g) + 7 H2O(l) + N2(g)} \\
 \Delta H\sub{c,\mathnormal{n},Alanin}^{\circ} = -1621\,\small\kilojoulepermole.
 \end{gather*}
-\tag{8}</span></span></p>
+\tag{10}</span></span></p>
 <p>In beiden Fällen kann die Reaktion in einem Bombenkalorimeter gestartet werden und dadurch wird am Ende abgekühlt, sodass alle Produkte in ihren Standardzustand vorliegen.</p>
 <p>Eine Funktion des Urins ist die Ausscheidung von überschüssigem Stickstoff. Wir geben ja kein Stickstoffgas ab, sondern Harnstoff <span class="math inline">\ce{CO(NH2)2}</span>. Der Harnstoff ist unter Standardbedingungen fest. In einer thermischen Verbrennung würde der Harnstoff auch zu seinen gasförmigen Bestandteilen zerlegt werden nach der Reaktion</p>
 <p><span id="eq-urea-combustion"><span class="math display">
@@ -416,16 +441,16 @@ window.Quarto = {
 \ce{CO(NH2)2(s) + 3/2 O2(g) -&gt; CO2(g) + 2 H2O(l) + N2(g)} \\
 \Delta H\sub{c,\mathnormal{n},Harnstoff}^{\circ} = -632\,\small\kilojoulepermole.
 \end{gather*}
-\tag{9}</span></span></p>
+\tag{11}</span></span></p>
 <p>Das zeigt, welchen Energiegehalt wir durch den Urin verlieren. Das bedeutet aber auch, dass die Metabolisierung von Methionin in unserem Körper um einen gewissen Betrag verringert wird. Dieser Betrag muss ja nach Hess genau einer gewissen Menge verbrannten Harnstoff entsprechen. Welcher Betrag ist es denn?</p>
-<p>In <a href="#eq-urea-combustion" class="quarto-xref">Gleichung&nbsp;9</a> steht Harnstoff noch auf der Eduktseite. Wir bräuchten es aber auf der Produktseite, damit das unserem Stoffwechsel einigermassen entspricht. Dazu lassen wir die Reaktion aus <a href="#eq-urea-combustion" class="quarto-xref">Gleichung&nbsp;9</a> einfach rückwärts laufen.</p>
+<p>In <a href="#eq-urea-combustion" class="quarto-xref">Gleichung&nbsp;11</a> steht Harnstoff noch auf der Eduktseite. Wir bräuchten es aber auf der Produktseite, damit das unserem Stoffwechsel einigermassen entspricht. Dazu lassen wir die Reaktion aus <a href="#eq-urea-combustion" class="quarto-xref">Gleichung&nbsp;11</a> einfach rückwärts laufen.</p>
 <p><span id="eq-urea-combustion-reverse"><span class="math display">
 \begin{gather*}
 \ce{CO2(g) + 2 H2O(l) + N2(g) -&gt; CO(NH2)2(s) + 3/2 O2(g)} \\
 \Delta H\sub{Urin,\mathnormal{n}}^{\circ} = -\Delta H\sub{c,\mathnormal{n},Harnstoff}^{\circ} = +632\,\small\kilojoulepermole
 \end{gather*}
-\tag{10}</span></span></p>
-<p>Beachte das umgekehrte Vorzeichen der Enthalpie. Nun können wir <a href="#eq-thermal-met-combustion" class="quarto-xref">Gleichung&nbsp;12</a> mit <a href="#eq-urea-combustion-reverse" class="quarto-xref">Gleichung&nbsp;10</a> kombinieren, indem wir beide Gleichungen addieren. Wir haben gesagt, dass der Urin neben anderen Funktionen auch zur Stickstoffentsorgung genutzt wird. Wenn das die Vorgabe ist, dann müssen wir lediglich dafür sorgen, dass bei der Addition die entstandene Menge an <span class="math inline">\ce{N2}</span> aus <a href="#eq-thermal-met-combustion" class="quarto-xref">Gleichung&nbsp;12</a> genau der Menge an <span class="math inline">\ce{N2}</span> aus <a href="#eq-urea-combustion-reverse" class="quarto-xref">Gleichung&nbsp;10</a> entspricht. Das ist aber bereits in unserem Fall gegeben. Dann addieren wir einfach beide Gleichungen und erhalten</p>
+\tag{12}</span></span></p>
+<p>Beachte das umgekehrte Vorzeichen der Enthalpie. Nun können wir <a href="#eq-thermal-met-combustion" class="quarto-xref">Gleichung&nbsp;14</a> mit <a href="#eq-urea-combustion-reverse" class="quarto-xref">Gleichung&nbsp;12</a> kombinieren, indem wir beide Gleichungen addieren. Wir haben gesagt, dass der Urin neben anderen Funktionen auch zur Stickstoffentsorgung genutzt wird. Wenn das die Vorgabe ist, dann müssen wir lediglich dafür sorgen, dass bei der Addition die entstandene Menge an <span class="math inline">\ce{N2}</span> aus <a href="#eq-thermal-met-combustion" class="quarto-xref">Gleichung&nbsp;14</a> genau der Menge an <span class="math inline">\ce{N2}</span> aus <a href="#eq-urea-combustion-reverse" class="quarto-xref">Gleichung&nbsp;12</a> entspricht. Das ist aber bereits in unserem Fall gegeben. Dann addieren wir einfach beide Gleichungen und erhalten</p>
 <p><span class="math display">
 \begin{gather*}
 \ce{2 C3H7NO2(s) + 15/2 O2(g) + CO2(g) + 2 H2O(l) + N2(g) -&gt;} \\
@@ -438,7 +463,7 @@ window.Quarto = {
 \ce{2 C5H11NO2S(s) + 12/2 O2(g) -&gt;} \\
 \ce{5 CO2(g) + 5 H2O(l) + CO(NH2)2(s)}
 \end{gather*}
-\tag{11}</span></span></p>
+\tag{13}</span></span></p>
 <p>Bleibt nur noch übrig, die Enthalpien zu addieren. Das ist aber auch ganz einfach, da die Enthalpie eine Zustandsfunktion ist und wir das Hess’sche Gesetz anwenden.</p>
 <p><span class="math display">
 \begin{split}
@@ -456,73 +481,60 @@ window.Quarto = {
 <p><span id="eq-thermal-met-combustion"><span class="math display">
 \begin{gather*}
 \ce{2 C5H11NO2S(s) + 31/2 O2(g) -&gt;} \\
-\ce{10 CO2(g) + 11 H2O(l) + N2(g) + 2 SO2(g)} \\
-\Delta H\sub{c,\mathnormal{n},Methionin}^{\circ} = -3564\,\small\kilojoulepermole,
-\end{gather*}
-\tag{12}</span></span></p>
-<p>Ähnlich wie bei Alanin stellen wir fest, dass der Schwefel nicht wie bei der thermischen Verbrennung von Methionin als Schwefeldioxid ausgeschieden wird. Stattdessen wird der Schwefel im Urin als Sulfat ausgeschieden<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> und damit gehen auch hier Energieverluste einher.</p>
-<p>Wir werden zur Bestimmung der Energieverluste durch die Sulfatausscheidung im Urin lediglich die Bildung der Schwefelsäure aus Schwefeldioxid betrachten. Die dafür notwendige Reaktion ist die folgende</p>
-<p><span id="eq-sulfate-formation"><span class="math display">
-\ce{SO2(g) + 1/2 O2(g) + H2O(l) -&gt; H2SO4(aq)}.
-\tag{13}</span></span></p>
-<p>Da die Enthalpie eine Zustandsfunktion ist, können wir die Enthalpie der Sulfatbildung aus den Bildungsenthalpien der Edukte und Produkte bestimmen. Diese Reaktion hat folgende Standardenthalpie</p>
-<p><span class="math display">
-\begin{split}
-\Delta H\sub{r,Sulfat}^{\circ}
-    &amp;= \Delta H\sub{f,\mathnormal{\ce{H2SO4(aq)}}}^{\circ} - \Delta H\sub{f,\mathnormal{\ce{SO2(g)}}}^{\circ} - \frac{1}{2} \Delta H\sub{f,\mathnormal{\ce{O2(g)}}}^{\circ} - \Delta H\sub{f,\mathnormal{\ce{H2O(l)}}}^{\circ} \\
-    &amp;= -888\,\small\kilojoulepermole - \left( -297\,\small\kilojoulepermole \right) - \frac{1}{2} \cdot 0\,\small\kilojoulepermole - \left( -286\,\small\kilojoulepermole \right) \\
-    &amp;= -305\,\small\kilojoulepermole.
-\end{split}
-</span></p>
-<p>Beachte, dass wir die Enthalpie aus der Differenz der Enthalpien der Produkte und Edukte berechnet haben. Das ist eine weitere Anwendung des Hess’schen Gesetzes. Nun können wir den Energiegehalt der metabolischen Verbrennung von Methionin bestimmen, indem wir die Enthalpie der Sulfatbildung und der Harnstoffbildung zu der Enthalpie der thermischen Verbrennung von Methionin addieren. Zuerst betrachten wir die Bildung von Harnstoff und Sulfat als eine Einzelreaktion</p>
-<p><span class="math display">
-\begin{gather*}
-\ce{CO2(g) + 2 H2O(l) + N2(g) + 2 SO2(g) + 1/2 O2(g) + H2O(l) -&gt;} \\
-\ce{CO(NH2)2(s) + 3/2 O2(g) + H2SO4(aq)}.
-\end{gather*}
-</span></p>
-<p>Wir addieren einzelne Substanzen auf beiden Seiten der Reaktion und ziehen die Anzahl der Sauerstoffmoleküle auf der rechten Seite zusammen. Dadurch erhalten wir</p>
-<p><span id="eq-urea-sulfate-metabolic-formation"><span class="math display">
-\begin{gather*}
-\ce{CO2(g) + 3 H2O(l) + N2(g) + 2 SO2(g) -&gt;} \\
-\ce{CO(NH2)2(s) + H2SO4(aq) + O2(g)}.
+\ce{10 CO2(g) + 11 H2O(l) + N2(g) + 2 SO2(g)}
 \end{gather*}
 \tag{14}</span></span></p>
-<p>Jetzt können wir die Enthalpie dieser Reaktion bestimmen, indem wir die Enthalpien der Bildung von Harnstoff und Schwefelsäure addieren. Das ist möglich, da die Enthalpie eine Zustandsfunktion ist. Es ergibt sich</p>
-<p><span id="eq-urea-sulfate-metabolic-formation-enthalpy"><span class="math display">
-\begin{split}
-\Delta H\sub{Urin+Sulfat,\mathnormal{n}}^{\circ}
-    &amp;= \Delta H\sub{Urin,\mathnormal{n}}^{\circ} + \Delta H\sub{r,Sulfat}^{\circ} \\
-    &amp;= 632\,\small\kilojoulepermole - 305\,\small\kilojoulepermole \\
-    &amp;= 327\,\small\kilojoulepermole.
-\end{split}
-\tag{15}</span></span></p>
-<p>Nun können wir die Reaktionsgleichung der Metabolisierung von Methionin durch Addition von <a href="#eq-thermal-met-combustion" class="quarto-xref">Gleichung&nbsp;12</a> und <a href="#eq-urea-sulfate-metabolic-formation" class="quarto-xref">Gleichung&nbsp;14</a> erhalten. Wir bekommen</p>
+<p>Allerdings wird in der kalorimetrischen Messung von Verbrennungsenthalpien von schwefelhaltigen Verbindungen nicht das Schwefeldioxid als Endprodukt gemessen, sondern die Schwefelsäure. Um die tatsächliche thermische Verbrennungsenthalpie von Methionin zu bestimmen, müssen wir <a href="#eq-sulfuric-acid-from-sulfur-dioxide" class="quarto-xref">Gleichung&nbsp;6</a> von der obigen Gleichung subtrahieren. Das geschieht indem man <a href="#eq-sulfuric-acid-from-sulfur-dioxide" class="quarto-xref">Gleichung&nbsp;6</a> ugedreht dazu addiert. Dabei muss die Anzahl der <span class="math inline">\ce{SO2}</span> Moleküle angepasst werden. Daraus ergibt sich die Gesamtreaktion</p>
 <p><span class="math display">
 \begin{gather*}
-\ce{2 C5H11NO2S(s) + 31/2 O2(g)} \\
-\ce{+ CO2(g) + 3 H2O(l) + N2(g) + 2 SO2(g) -&gt;} \\
-\ce{10 CO2(g) + 11 H2O(l) + N2(g) + 2 SO2(g)} \\
-\ce{+ CO(NH2)2(s) + H2SO4(aq) + O2(g)}.
+\ce{2 C5H11NO2S(s) + 31/2 O2(g) + 2 SO2(g) + O2(g) + 2 H2O(l) -&gt;} \\
+\ce{10 CO2(g) + 11 H2O(l) + N2(g) + 2 SO2(g) + 2 H2SO4(aq)}
 \end{gather*}
 </span></p>
-<p>Durch Kürzen der Substanzen, die auf beiden Seiten der Reaktion gleich sind, erhalten wir</p>
-<p><span id="eq-metabolic-met-combustion"><span class="math display">
+<p>Nach Kürzen der Substanzen, die auf beiden Seiten gleich sind, erhalten wir</p>
+<p><span id="eq-calorimetric-met-combustion"><span class="math display">
 \begin{gather*}
-\ce{2 C5H11NO2S(s) + 29/2 O2(g) -&gt;} \\
-\ce{9 CO2(g) + 8 H2O(l) + CO(NH2)2(s) + H2SO4(aq)}.
+\ce{2 C5H11NO2S(s) + 35/2 O2(g) -&gt;} \\
+\ce{10 CO2(g) + 9 H2O(l) + N2(g) + 2 H2SO4(aq)}.
+\end{gather*}   
+\tag{15}</span></span></p>
+<p>Wenn also Verbrennungsenthalpien von Aminosäuren bestimmt und angegeben werden, dann wurde die Verbrennung so gefahren, dass Schwefelsäure als Endprodukt entstand. Im Falle von Methionin beträgt die angegebene Verbrennungsenthalpie <span class="math inline">\Delta H_{\text{kalorimeter},n,\text{Met}} = -3564\,\small\kilojoulepermole</span>. Dadurch ist die wahre Verbrennungsenthalpie von Methionin nach <a href="#eq-thermal-met-combustion" class="quarto-xref">Gleichung&nbsp;14</a></p>
+<p><span class="math display">
+\begin{split}
+\Delta H_{\text{therm},n,\text{Met}} &amp;= \Delta H_{\text{kalorimeter},n,\text{Met}} - 2 \cdot \Delta H_{\text{r},n}^{\circ}\left(\ce{H2SO4}\right) \\
+&amp;= -3564\,\small\kilojoulepermole - 2 \cdot (-273\,\small\kilojoulepermole) \\
+&amp;= -3018\,\small\kilojoulepermole.
+\end{split}
+</span></p>
+<p>Der Großteil des Schwefel wird im Urin als Sulfat ausgeschieden<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. Dadurch entspricht die angegebene kalorimetrische Verbrennungsenthalpie von Methionin bis auf den Harnstoff, fast der metabolischen Verbrennung von Methionin. Um die metabolische Verbrennung von Methionin zu bestimmen, müssen wir noch lediglich die Enthalpie der umgekehrten Harnstoffverbrennung addieren. Das tun wir gleich der <a href="#eq-calorimetric-met-combustion" class="quarto-xref">Gleichung&nbsp;15</a> an und erhalten</p>
+<p><span class="math display">
+\begin{gather*}
+\ce{2 C5H11NO2S(s) + 35/2 O2(g) + CO2(g) + 2 H2O(l) + N2(g) -&gt;} \\
+\ce{10 CO2(g) + 9 H2O(l) + N2(g) + 2 H2SO4(aq) + CO(NH2)2(s) + 3/2 O2(g)}.
+\end{gather*}
+</span></p>
+<p>Durch Kürzen der Substanzen, die auf beiden Seiten gleich sind, bekommen wir</p>
+<p><span id="eq-metab-met-combustion"><span class="math display">
+\begin{gather*}
+\ce{2 C5H11NO2S(s) + 16 O2(g) -&gt;} \\
+\ce{9 CO2(g) + 7 H2O(l) + 2 H2SO4(aq) + CO(NH2)2(s)}.
 \end{gather*}
 \tag{16}</span></span></p>
-<p>Die Enthalpie der Metabolisierung von Methionin ist die Summe der Enthalpien der thermischen Verbrennung von Methionin und dem Wert aus <a href="#eq-urea-sulfate-metabolic-formation-enthalpy" class="quarto-xref">Gleichung&nbsp;15</a>. Es ergibt sich</p>
+<p>Diese Reaktion hat folgende Standardenthalpie</p>
 <p><span class="math display">
 \begin{split}
-\Delta H\sub{metab,\mathnormal{n},Methionin}^{\circ}
-    &amp;= \Delta H\sub{c,\mathnormal{n},Methionin}^{\circ} + \Delta H\sub{Urin+Sulfat,\mathnormal{n}}^{\circ} \\
-    &amp;= -3564\,\small\kilojoulepermole + 327\,\small\kilojoulepermole \\
-    &amp;= -3237\,\small\kilojoulepermole.
+\Delta H_{\text{metab},n,\text{Met}}^{\circ}
+    &amp;= \Delta H_{\text{kalorimeter},n,\text{Met}} + \Delta H_{\text{Urin},n}^{\circ} \\
+    &amp;= -3564\,\small\kilojoulepermole + 632\,\small\kilojoulepermole \\
+    &amp;= -2932\,\small\kilojoulepermole.
 \end{split}
 </span></p>
-<p>Somit verlieren wir durch die Ausscheidung von Stickstoff und Schwefel im Urin etwa 9% der Energie, die wir durch die thermische Verbrennung von Methionin gewinnen würden.</p>
+<p>Beachte bei der Metabolisierung von schwefelhaltigen Substanzen folgendes:</p>
+<ul>
+<li>Die angegebenen Verbrennungsenthalpien von schwefelhaltigen Substanzen entsprechen nicht der Verbrennung zu Schwefeldioxid, sondern der Verbrennung zu Schwefelsäure<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>.</li>
+<li>Dadurch muss lediglich die Enthalpie der umgekehrten Harnstoffverbrennung zu der angegebenen Verbrennungsenthalpie addiert werden, um die metabolische Verbrennung zu erhalten.</li>
+<li>Die tatsächliche thermische Verbrennung von schwefelhaltigen Substanzen ist um die Bildung von Schwefelsäure weniger exotherm.</li>
+</ul>
 </section>
 </section>
 <section id="energie-im-metabolismus" class="level3" data-number="3.4">
@@ -584,6 +596,7 @@ V_{\ce{CO2}} = n_{\ce{CO2}} \cdot V_n.
 
 <ol>
 <li id="fn1"><p>Es gibt andere Ausscheidungsmechanismen, die zu anderen Schwefelverbindungen führen. Wir konzentrieren uns allerdings auf den Sulfatweg, weil er in Tieren durchaus oft vorkommt. Zum Beispiel wurde festgestellt, dass der Großteil des Schwefels im Urin fast bis 90% als Sulfat ausgeschieden wird.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Das sollte jedoch im Einzelfall immer nachgeprüft werden<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main>
 <!-- /main column -->
