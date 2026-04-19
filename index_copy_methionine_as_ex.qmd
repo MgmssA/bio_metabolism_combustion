@@ -290,7 +290,7 @@ $$
 \end{gather*}
 $$ {#eq-urea-combustion}
 
-Das zeigt, welchen Energiegehalt wir durch den Urin verlieren. Das bedeutet aber auch, dass die Metabolisierung von Alanin in unserem Körper um einen gewissen Betrag verringert wird. Dieser Betrag muss ja nach Hess genau einer gewissen Menge verbrannten Harnstoff entsprechen. Welcher Betrag ist es denn?
+Das zeigt, welchen Energiegehalt wir durch den Urin verlieren. Das bedeutet aber auch, dass die Metabolisierung von Methionin in unserem Körper um einen gewissen Betrag verringert wird. Dieser Betrag muss ja nach Hess genau einer gewissen Menge verbrannten Harnstoff entsprechen. Welcher Betrag ist es denn?
 
 In @eq-urea-combustion steht Harnstoff noch auf der Eduktseite. Wir brauchen es aber auf der Produktseite, damit das unserem Stoffwechsel entspricht. Dazu lassen wir die Reaktion aus @eq-urea-combustion einfach rückwärts laufen.
 
@@ -301,7 +301,7 @@ $$
 \end{gather*}
 $$ {#eq-urea-combustion-reverse}
 
-Beachte das umgekehrte Vorzeichen der Enthalpie. Nun können wir @eq-thermal-ala-combustion mit @eq-urea-combustion-reverse kombinieren, indem wir beide Gleichungen addieren. Wir haben gesagt, dass der Urin neben anderen Funktionen auch zur Stickstoffentsorgung genutzt wird. Wenn das die Vorgabe ist, dann müssen wir lediglich dafür sorgen, dass bei der Addition die entstandene Menge an $\ce{N2}$ aus @eq-thermal-ala-combustion genau der Menge an $\ce{N2}$ aus @eq-urea-combustion-reverse entspricht. Das ist aber bereits in unserem Fall gegeben. Dann addieren wir einfach beide Gleichungen und erhalten
+Beachte das umgekehrte Vorzeichen der Enthalpie. Nun können wir @eq-thermal-met-combustion mit @eq-urea-combustion-reverse kombinieren, indem wir beide Gleichungen addieren. Wir haben gesagt, dass der Urin neben anderen Funktionen auch zur Stickstoffentsorgung genutzt wird. Wenn das die Vorgabe ist, dann müssen wir lediglich dafür sorgen, dass bei der Addition die entstandene Menge an $\ce{N2}$ aus @eq-thermal-met-combustion genau der Menge an $\ce{N2}$ aus @eq-urea-combustion-reverse entspricht. Das ist aber bereits in unserem Fall gegeben. Dann addieren wir einfach beide Gleichungen und erhalten
 
 $$
 \begin{gather*}
@@ -317,7 +317,7 @@ $$
 \ce{2 C5H11NO2S(s) + 12/2 O2(g) ->} \\
 \ce{5 CO2(g) + 5 H2O(l) + CO(NH2)2(s)}
 \end{gather*}
-$$ {#eq-metabolic-ala-combustion-subtraction}
+$$ {#eq-metabolic-met-combustion-subtraction}
 
 Bleibt nur noch übrig, die Enthalpien zu addieren. Das ist aber auch ganz einfach, da die Enthalpie eine Zustandsfunktion ist und wir das Hess'sche Gesetz anwenden. 
 
@@ -330,25 +330,25 @@ $$
 \end{split}
 $$
 
-Wenn wir also Alanin in unserem Körper metabolisieren, dann gewinnen wir $-2932\,\kilojoulepermole$ an Energie, was deutlich weniger ist als die Energie, die wir durch die thermische Verbrennung von Alanin gewinnen würden. Das liegt daran, dass wir den Stickstoff nicht in Form von gasförmigem Stickstoff sondern in Form von Harnstoff ausscheiden.
+Wenn wir also Alanin in unserem Körper metabolisieren, dann gewinnen wir $-2932\,\kilojoulepermole$ an Energie, was deutlich weniger ist als die Energie, die wir durch die thermische Verbrennung von Methionin gewinnen würden. Das liegt daran, dass wir den Stickstoff nicht in Form von gasförmigem Stickstoff sondern in Form von Harnstoff ausscheiden.
 
 #### Schwefel Ausscheidung im Urin
 
-Bei Vorhandensein von Schwefel ergibt sich ein weitere Komplikation. Diese werden wir anhand eines Abbauprodukts des Aminosäurenmetabolismus meistern. Das Abbauprodukt **Cystin** ist von der Aminosäure Cystein abgeleitet und besitzt zwei zusammen verbundene Schwefelgruppen. Wenn wir Cystin thermisch verbrennen würden, dann müsste die Reaktion so aussehen
+Die Aminosäure Methionin besitzt sogar eine Thiolgruppe und damit auch Schwefel. Wenn wir Methionin thermisch verbrennen würden, dann müsste die Reaktion so aussehen
 
 $$
 \begin{gather*}
-\ce{C6H12N2O4S2(s) + 9 O2(g) ->} \\
-\ce{6 CO2(g) + 6 H2O(l) + N2(g) + 2 SO2(g)}
+\ce{2 C5H11NO2S(s) + 31/2 O2(g) ->} \\
+\ce{10 CO2(g) + 11 H2O(l) + N2(g) + 2 SO2(g)}
 \end{gather*}
-$$ {#eq-thermal-cys-combustion}
+$$ {#eq-thermal-met-combustion}
 
-Allerdings wird in der kalorimetrischen Messung von Verbrennungsenthalpien von schwefelhaltigen Verbindungen nicht das Schwefeldioxid als Endprodukt gemessen, sondern die Schwefelsäure. Um die tatsächliche thermische Verbrennungsenthalpie von Cystin zu bestimmen, müssen wir @eq-sulfuric-acid-from-sulfur-dioxide von der obigen Gleichung subtrahieren. Das geschieht, indem man @eq-sulfuric-acid-from-sulfur-dioxide umgedreht dazu addiert. Dabei muss die Anzahl der $\ce{SO2}$ Moleküle angepasst werden. Daraus ergibt sich die Gesamtreaktion
+Allerdings wird in der kalorimetrischen Messung von Verbrennungsenthalpien von schwefelhaltigen Verbindungen nicht das Schwefeldioxid als Endprodukt gemessen, sondern die Schwefelsäure. Um die tatsächliche thermische Verbrennungsenthalpie von Methionin zu bestimmen, müssen wir @eq-sulfuric-acid-from-sulfur-dioxide von der obigen Gleichung subtrahieren. Das geschieht, indem man @eq-sulfuric-acid-from-sulfur-dioxide umgedreht dazu addiert. Dabei muss die Anzahl der $\ce{SO2}$ Moleküle angepasst werden. Daraus ergibt sich die Gesamtreaktion
 
 $$
 \begin{gather*}
-\ce{C6H12N2O4S2(s) + 9 O2(g) + 2 SO2(g) + O2(g) + 2 H2O(l) ->} \\
-\ce{6 CO2(g) + 6 H2O(l) + N2(g) + 2 SO2(g) + 2 H2SO4(aq)}
+\ce{2 C5H11NO2S(s) + 31/2 O2(g) + 2 SO2(g) + O2(g) + 2 H2O(l) ->} \\
+\ce{10 CO2(g) + 11 H2O(l) + N2(g) + 2 SO2(g) + 2 H2SO4(aq)}
 \end{gather*}
 $$
 
@@ -356,27 +356,27 @@ Nach Kürzen der Substanzen, die auf beiden Seiten gleich sind, erhalten wir
 
 $$
 \begin{gather*}
-\ce{C6H12N2O4S2(s) + 9 O2(g) ->} \\
-\ce{6 CO2(g) + 4 H2O(l) + N2(g) + 2 H2SO4(aq)}.
+\ce{2 C5H11NO2S(s) + 35/2 O2(g) ->} \\
+\ce{10 CO2(g) + 9 H2O(l) + N2(g) + 2 H2SO4(aq)}.
 \end{gather*}   
-$$ {#eq-calorimetric-cys-combustion}
+$$ {#eq-calorimetric-met-combustion}
 
-Wenn Verbrennungsenthalpien von Aminosäuren bestimmt und angegeben werden, dann wurde die Verbrennung in vielen Fällen so gefahren, dass Schwefelsäure als Endprodukt entstand. Im Falle von Cystin beträgt diese angegebene Verbrennungsenthalpie $\Delta H_{\text{kalorimeter},n,\text{Met}} = -4250\,\small\kilojoulepermole$. Dadurch ist die wahre Verbrennungsenthalpie von Cystin nach @eq-thermal-cys-combustion
+Wenn also Verbrennungsenthalpien von Aminosäuren bestimmt und angegeben werden, dann wurde die Verbrennung so gefahren, dass Schwefelsäure als Endprodukt entstand. Im Falle von Methionin beträgt die angegebene Verbrennungsenthalpie $\Delta H_{\text{kalorimeter},n,\text{Met}} = -3564\,\small\kilojoulepermole$. Dadurch ist die wahre Verbrennungsenthalpie von Methionin nach @eq-thermal-met-combustion
 
 $$
 \begin{split}
-\Delta H_{\text{c},n,\text{Cys}} &= \Delta H_{\text{kalorimeter},n,\text{Cys}} - 2 \cdot \Delta H_{\text{r},n}^{\circ}\left(\ce{H2SO4}\right) \\
-&= -4250\,\small\kilojoulepermole - 2 \cdot (-273\,\small\kilojoulepermole) \\
-&= -3704\,\small\kilojoulepermole.
+\Delta H_{\text{therm},n,\text{Met}} &= \Delta H_{\text{kalorimeter},n,\text{Met}} - 2 \cdot \Delta H_{\text{r},n}^{\circ}\left(\ce{H2SO4}\right) \\
+&= -3564\,\small\kilojoulepermole - 2 \cdot (-273\,\small\kilojoulepermole) \\
+&= -3018\,\small\kilojoulepermole.
 \end{split}
 $$
 
-Der Großteil des Schwefels wird im Urin als Sulfat ausgeschieden^[Es gibt andere Ausscheidungsmechanismen, die zu anderen Schwefelverbindungen führen. Wir konzentrieren uns allerdings auf den Sulfatweg, weil er in Tieren durchaus oft vorkommt. Zum Beispiel wurde festgestellt, dass der Großteil des Schwefels im Urin fast bis 90% als Sulfat ausgeschieden wird.]. Dadurch entspricht die angegebene kalorimetrische Verbrennungsenthalpie von Cystin bis auf den Harnstoff, fast der metabolischen Verbrennung von Cystin. Um dessen metabolische Verbrennung zu bestimmen, müssen wir, wie in dem vorausgegangenen Abschnitt erklärt, die Enthalpie der umgekehrten Harnstoffverbrennung addieren. Das tun wir gleich der @eq-calorimetric-cys-combustion an und erhalten
+Der Großteil des Schwefel wird im Urin als Sulfat ausgeschieden^[Es gibt andere Ausscheidungsmechanismen, die zu anderen Schwefelverbindungen führen. Wir konzentrieren uns allerdings auf den Sulfatweg, weil er in Tieren durchaus oft vorkommt. Zum Beispiel wurde festgestellt, dass der Großteil des Schwefels im Urin fast bis 90% als Sulfat ausgeschieden wird.]. Dadurch entspricht die angegebene kalorimetrische Verbrennungsenthalpie von Methionin bis auf den Harnstoff, fast der metabolischen Verbrennung von Methionin. Um die metabolische Verbrennung von Methionin zu bestimmen, müssen wir noch lediglich die Enthalpie der umgekehrten Harnstoffverbrennung addieren. Das tun wir gleich der @eq-calorimetric-met-combustion an und erhalten
 
 $$
 \begin{gather*}
-\ce{C6H12N2O4S2(s) + 9 O2(g) + CO2(g) + 2 H2O(l) + N2(g) ->} \\
-\ce{6 CO2(g) + 4 H2O(l) + N2(g) + 2 H2SO4(aq) + CO(NH2)2(s) + 3/2 O2(g)}.
+\ce{2 C5H11NO2S(s) + 35/2 O2(g) + CO2(g) + 2 H2O(l) + N2(g) ->} \\
+\ce{10 CO2(g) + 9 H2O(l) + N2(g) + 2 H2SO4(aq) + CO(NH2)2(s) + 3/2 O2(g)}.
 \end{gather*}
 $$
 
@@ -384,19 +384,19 @@ Durch Kürzen der Substanzen, die auf beiden Seiten gleich sind, bekommen wir
 
 $$
 \begin{gather*}
-\ce{C6H12N2O4S2(s) + 3 O2(g) ->} \\
-\ce{5 CO2(g) + 2 H2O(l) + 2 H2SO4(aq) + CO(NH2)2(s)}.
+\ce{2 C5H11NO2S(s) + 16 O2(g) ->} \\
+\ce{9 CO2(g) + 7 H2O(l) + 2 H2SO4(aq) + CO(NH2)2(s)}.
 \end{gather*}
-$$ {#eq-metab-cys-combustion}
+$$ {#eq-metab-met-combustion}
 
 Diese Reaktion hat folgende Standardenthalpie
 
 $$
 \begin{split}
-\Delta H_{\text{metab},n,\text{Cys}}^{\circ} 
-    &= \Delta H_{\text{kalorimeter},n,\text{Cys}} + \Delta H_{\text{Urin},n}^{\circ} \\
-    &= -3704\,\small\kilojoulepermole + 632\,\small\kilojoulepermole \\
-    &= -3072\,\small\kilojoulepermole.
+\Delta H_{\text{metab},n,\text{Met}}^{\circ} 
+    &= \Delta H_{\text{kalorimeter},n,\text{Met}} + \Delta H_{\text{Urin},n}^{\circ} \\
+    &= -3564\,\small\kilojoulepermole + 632\,\small\kilojoulepermole \\
+    &= -2932\,\small\kilojoulepermole.
 \end{split}
 $$
 
@@ -417,13 +417,13 @@ $$
 \end{gather*}
 $$ {#eq-biomass-metabolization}
 
-Die dazugehörig molare Enthalpie hat dieselbe Form wie bei der thermischen Verbrennung und schreibt sich
+Die dazugehörig molare Enthalpie ist dieselbe, wie bei der technischen Verbrennung und schreibt sich
 
 $$
 \Delta H_{\text{metab},n}^{\circ} = \Delta U_{\text{metab},n} - p \Delta V_n.
 $$
 
-Vergiss nicht; die Enthalpie ist diejenige Energie, die bei konstantem Druck verwendbar wird. Sie ergibt sich aus der inneren Energie abzüglich der Expansionsarbeit, die die beteiligten Gase bedingen. Dabei ist der Druck $p = 101325\,\pascal$ und die Temperatur $T = 298\,\kelvin$ und stellen somit Standardbedingungen dar. Dadurch ist das molare Volumen $V_n = 0.0245\,\cubicmeterpermole$ bei Annahme eines perfekten Gases. 
+Vergiss nicht; die Enthalpie ist diejenige Energie, die bei konstantem Druck verwendbar wird. Sie ergibt sich aus der inneren Energie abzüglich der Expansionsarbeit, die die beteiligten Gase bedingen. Dabei ist der Druck $p = 101325\,\pascal$ und die Temperatur $T = 298\,\kelvin$ und stellen somit Standardbedingungen dar. Dadurch ist das molare Volumen $V_n = 0.0245\cubicmeterpermole$ bei Annahme eines perfekten Gases. 
 
 Die molare Enthalpie ist so definiert
 
